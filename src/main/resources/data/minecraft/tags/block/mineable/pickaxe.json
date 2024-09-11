@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thearcaneforge:arcane_block",
+    "thearcaneforge:raw_arcane_block",
+    "thearcaneforge:arcane_ore",
+    "thearcaneforge:arcane_deepslate_ore"
+  ]
+}

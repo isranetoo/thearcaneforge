@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.thearcaneforge.mod.block.ModBlocks;
+import net.thearcaneforge.mod.item.ModCreativeModeTabs;
 import net.thearcaneforge.mod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -35,6 +36,7 @@ public class TheArcaneForge
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -61,6 +63,8 @@ public class TheArcaneForge
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ARCANE_BLOCK);
             event.accept(ModBlocks.RAW_ARCANE_BLOCK);
+            event.accept(ModBlocks.ARCANE_ORE);
+            event.accept(ModBlocks.ARCANE_DEEPSLATE_ORE);
         }
     }
 
