@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.thearcaneforge.mod.block.ModBlocks;
 import net.thearcaneforge.mod.item.ModCreativeModeTabs;
+import net.thearcaneforge.mod.item.ModITools;
 import net.thearcaneforge.mod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -40,6 +41,7 @@ public class TheArcaneForge
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModITools.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -55,6 +57,10 @@ public class TheArcaneForge
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(ModITools.CHISEL);
+        }
 
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ARCANE_GEMSTONE);

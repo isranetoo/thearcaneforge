@@ -8,16 +8,12 @@ import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
 import net.thearcaneforge.mod.item.custom.ChiselItem;
 
-public class ModItems {
+public class ModITools {
     public  static  final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TheArcaneForge.MOD_ID);
 
-    public  static final RegistryObject<Item> ARCANE_GEMSTONE = ITEMS.register("arcane_gemstone",
-            () -> new Item(new Item.Properties()));
-
-    public  static final RegistryObject<Item> RAW_ARCANE_ORE = ITEMS.register("raw_arcane_ore",
-            () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(32)));
 
     public  static  void register (IEventBus eventBus){
         ITEMS.register(eventBus);

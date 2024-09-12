@@ -14,6 +14,14 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TheArcaneForge.MOD_ID);
 
+    public static final RegistryObject<CreativeModeTab> ARCANE_TOOLS_TAB = CREATIVE_MODE_TABS.register("arcane_tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModITools.CHISEL.get()))
+                    .title(Component.translatable("creativetab.thearcaneforge.arcane_tools_tab"))
+                    .displayItems((itemDisplayParameters,output) -> {
+                        output.accept(ModITools.CHISEL.get());
+
+                    }).build());
+
     public static final RegistryObject<CreativeModeTab> ARCANE_ITEMS_TAB = CREATIVE_MODE_TABS.register("arcane_item_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ARCANE_GEMSTONE.get()))
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_gemstone_items"))
@@ -26,7 +34,7 @@ public class ModCreativeModeTabs {
     public static final RegistryObject<CreativeModeTab> ARCANE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("arcane_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ARCANE_BLOCK.get()))
                     .withTabsBefore(ARCANE_ITEMS_TAB.getId())
-                    .title(Component.translatable("creativetab.thearcaneforge.arcane_gemstone_block"))
+                    .title(Component.translatable("creativetab.thearcaneforge.arcane_gemstone_blocks"))
                     .displayItems((itemDisplayParameters,output) -> {
                         output.accept(ModBlocks.ARCANE_BLOCK.get());
                         output.accept(ModBlocks.RAW_ARCANE_BLOCK.get());
