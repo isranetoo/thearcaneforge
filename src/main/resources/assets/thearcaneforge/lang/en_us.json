@@ -1,13 +1,15 @@
 {
   "item.thearcaneforge.arcane_gemstone": "Arcane Gemstone",
   "item.thearcaneforge.raw_arcane_ore": "Raw Arcane Ore",
+  "item.thearcaneforge.pink_garnet": "Pink Garnet",
+  "item.thearcaneforge.raw_pink_garnet": "Raw Pink Garnet",
+
   "item.thearcaneforge.chisel": "The Chisel",
 
   "block.thearcaneforge.arcane_block": "Arcane Block",
   "block.thearcaneforge.raw_arcane_block": "Raw Arcane Block",
   "block.thearcaneforge.arcane_ore": "Arcane Ore",
   "block.thearcaneforge.arcane_deepslate_ore": "Arcane Deepslate Ore",
-
 
   "creativetab.thearcaneforge.arcane_tools_tab": "The Arcane Tools",
   "creativetab.thearcaneforge.arcane_gemstone_items": "The Arcane Items",

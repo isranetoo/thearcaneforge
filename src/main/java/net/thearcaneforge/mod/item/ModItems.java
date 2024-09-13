@@ -18,6 +18,12 @@ public class ModItems {
     public  static final RegistryObject<Item> RAW_ARCANE_ORE = ITEMS.register("raw_arcane_ore",
             () -> new Item(new Item.Properties()));
 
+    public  static final RegistryObject<Item> PINK_GARNET = ITEMS.register("pink_garnet",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_PINK_GARNET = ITEMS.register("raw_pink_garnet",
+            () -> new Item(new Item.Properties()));
+
 
     public  static  void register (IEventBus eventBus){
         ITEMS.register(eventBus);

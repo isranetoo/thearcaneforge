@@ -28,6 +28,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters,output) -> {
                         output.accept(ModItems.ARCANE_GEMSTONE.get());
                         output.accept(ModItems.RAW_ARCANE_ORE.get());
+                        output.accept(ModItems.PINK_GARNET.get());
+                        output.accept(ModItems.RAW_PINK_GARNET.get());
 
                     }).build());
 
@@ -40,6 +42,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_ARCANE_BLOCK.get());
                         output.accept(ModBlocks.ARCANE_ORE.get());
                         output.accept(ModBlocks.ARCANE_DEEPSLATE_ORE.get());
+
 
                     }).build());
 

@@ -65,12 +65,16 @@ public class TheArcaneForge
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ARCANE_GEMSTONE);
             event.accept(ModItems.RAW_ARCANE_ORE);
+            event.accept(ModItems.PINK_GARNET);
+            event.accept(ModItems.RAW_PINK_GARNET);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ARCANE_BLOCK);
             event.accept(ModBlocks.RAW_ARCANE_BLOCK);
             event.accept(ModBlocks.ARCANE_ORE);
             event.accept(ModBlocks.ARCANE_DEEPSLATE_ORE);
+
+
         }
     }
 
