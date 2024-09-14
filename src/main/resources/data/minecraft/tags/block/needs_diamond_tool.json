@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "thearcaneforge:arcane_deepslate_ore"
+    "thearcaneforge:arcane_deepslate_ore",
+    "thearcaneforge:pink_garnet_deepslate_ore"
   ]
 }

@@ -4,6 +4,10 @@
     "thearcaneforge:arcane_block",
     "thearcaneforge:raw_arcane_block",
     "thearcaneforge:arcane_ore",
-    "thearcaneforge:arcane_deepslate_ore"
+    "thearcaneforge:arcane_deepslate_ore",
+    "thearcaneforge:pink_garnet_block",
+    "thearcaneforge:raw_pink_garnet_block",
+    "thearcaneforge:pink_garnet_ore",
+    "thearcaneforge:pink_garnet_deepslate_ore"
   ]
 }

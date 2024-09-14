@@ -59,7 +59,7 @@ public class TheArcaneForge
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
-            event.accept(ModITools.CHISEL);
+            event.accept(ModITools.ARCANE_CHISEL);
         }
 
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
@@ -68,11 +68,16 @@ public class TheArcaneForge
             event.accept(ModItems.PINK_GARNET);
             event.accept(ModItems.RAW_PINK_GARNET);
         }
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModBlocks.ARCANE_BLOCK);
             event.accept(ModBlocks.RAW_ARCANE_BLOCK);
             event.accept(ModBlocks.ARCANE_ORE);
             event.accept(ModBlocks.ARCANE_DEEPSLATE_ORE);
+
+            event.accept(ModBlocks.PINK_GARNET_BLOCK);
+            event.accept(ModBlocks.RAW_PINK_GARNET_BLOCK);
+            event.accept(ModBlocks.PINK_GARNET_ORE);
+            event.accept(ModBlocks.PINK_GARNET_DEESLATE_ORE);
 
 
         }

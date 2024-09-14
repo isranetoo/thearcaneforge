@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thearcaneforge:pink_garnet_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "thearcaneforge:pink_garnet"
+  }
+}

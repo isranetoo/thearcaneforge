@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "thearcaneforge:arcane_block",
-    "thearcaneforge:raw_arcane_block"
+    "thearcaneforge:raw_arcane_block",
+    "thearcaneforge:arcane_ore",
+    "thearcaneforge:pink_garnet_block",
+    "thearcaneforge:raw_pink_garnet_block",
+    "thearcaneforge:pink_garnet_ore"
   ]
 }

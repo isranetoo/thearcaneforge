@@ -12,7 +12,7 @@ public class ModITools {
     public  static  final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TheArcaneForge.MOD_ID);
 
-    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
+    public static final RegistryObject<Item> ARCANE_CHISEL = ITEMS.register("arcane_chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
 
     public  static  void register (IEventBus eventBus){

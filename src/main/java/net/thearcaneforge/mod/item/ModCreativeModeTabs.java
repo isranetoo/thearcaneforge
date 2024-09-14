@@ -15,10 +15,10 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TheArcaneForge.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ARCANE_TOOLS_TAB = CREATIVE_MODE_TABS.register("arcane_tools_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModITools.CHISEL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModITools.ARCANE_CHISEL.get()))
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_tools_tab"))
                     .displayItems((itemDisplayParameters,output) -> {
-                        output.accept(ModITools.CHISEL.get());
+                        output.accept(ModITools.ARCANE_CHISEL.get());
 
                     }).build());
 
@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters,output) -> {
                         output.accept(ModItems.ARCANE_GEMSTONE.get());
                         output.accept(ModItems.RAW_ARCANE_ORE.get());
+
                         output.accept(ModItems.PINK_GARNET.get());
                         output.accept(ModItems.RAW_PINK_GARNET.get());
 
@@ -38,10 +39,18 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ARCANE_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_gemstone_blocks"))
                     .displayItems((itemDisplayParameters,output) -> {
+
+                        //ARCANE
                         output.accept(ModBlocks.ARCANE_BLOCK.get());
                         output.accept(ModBlocks.RAW_ARCANE_BLOCK.get());
                         output.accept(ModBlocks.ARCANE_ORE.get());
                         output.accept(ModBlocks.ARCANE_DEEPSLATE_ORE.get());
+
+                        //GARNET
+                        output.accept(ModBlocks.PINK_GARNET_BLOCK.get());
+                        output.accept(ModBlocks.RAW_PINK_GARNET_BLOCK.get());
+                        output.accept(ModBlocks.PINK_GARNET_ORE.get());
+                        output.accept(ModBlocks.PINK_GARNET_DEESLATE_ORE.get());
 
 
                     }).build());
