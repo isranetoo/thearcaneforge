@@ -3,9 +3,15 @@
   "item.thearcaneforge.raw_arcane_ore": "Raw Arcane Ore",
   "item.thearcaneforge.pink_garnet": "Pink Garnet",
   "item.thearcaneforge.raw_pink_garnet": "Raw Pink Garnet",
+  "item.thearcaneforge.bismuth_gemstone": "Bismuth Gemstone",
+  "item.thearcaneforge.raw_bismuth": "Raw Bismuth",
+
+  "item.thearcaneforge.kohlrabi": "Kohlrabi",
+  "item.thearcaneforge.radish": "Radish",
 
   "item.thearcaneforge.arcane_chisel": "The Arcane Chisel",
   "item.thearcaneforge.garnet_chisel": "The Garnet Chisel",
+  "item.thearcaneforge.bismuth_chisel": "The Bismuth Chisel",
 
   "block.thearcaneforge.arcane_block": "Arcane Block",
   "block.thearcaneforge.raw_arcane_block": "Raw Arcane Block",
@@ -15,9 +21,13 @@
   "block.thearcaneforge.raw_pink_garnet_block": "Raw Pink Garnet Block",
   "block.thearcaneforge.pink_garnet_ore": "Garnet Ore",
   "block.thearcaneforge.pink_garnet_deepslate_ore": "Garnet Deepslate Ore",
-  
+  "block.thearcaneforge.bismuth_block": "Bismuth Block",
+  "block.thearcaneforge.bismuth_ore": "Bismuth Ore",
+  "block.thearcaneforge.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+
 
   "creativetab.thearcaneforge.arcane_tools_tab": "The Arcane Tools",
   "creativetab.thearcaneforge.arcane_gemstone_items": "The Arcane Items",
-  "creativetab.thearcaneforge.arcane_gemstone_blocks": "The Arcane Blocks"
+  "creativetab.thearcaneforge.arcane_gemstone_blocks": "The Arcane Blocks",
+  "creativetab.thearcaneforge.arcane_food_tab": "The Arcane Food"
 }

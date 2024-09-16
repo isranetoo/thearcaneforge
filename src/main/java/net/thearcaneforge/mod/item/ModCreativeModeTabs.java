@@ -20,8 +20,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters,output) -> {
                         output.accept(ModITools.ARCANE_CHISEL.get());
                         output.accept(ModITools.GARNET_CHISEL.get());
+                        output.accept(ModITools.BISMUTH_CHISEL.get());
 
                     }).build());
+
 
     public static final RegistryObject<CreativeModeTab> ARCANE_ITEMS_TAB = CREATIVE_MODE_TABS.register("arcane_item_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ARCANE_GEMSTONE.get()))
@@ -35,6 +37,10 @@ public class ModCreativeModeTabs {
                         //GARNET
                         output.accept(ModItems.PINK_GARNET.get());
                         output.accept(ModItems.RAW_PINK_GARNET.get());
+
+                        //BISMUTH
+                        output.accept(ModItems.BISMUTH_GEMSTONE.get());
+                        output.accept(ModItems.RAW_BISMUTH.get());
 
                     }).build());
 
@@ -56,6 +62,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PINK_GARNET_ORE.get());
                         output.accept(ModBlocks.PINK_GARNET_DEESLATE_ORE.get());
 
+                        //BISMUTH
+                        output.accept(ModBlocks.BISMUTH_BLOCK.get());
+                        output.accept(ModBlocks.BISMUTH_ORE.get());
+                        output.accept(ModBlocks.BISMUTH_DEESLATE_ORE.get());
+
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> ARCANE_FOOD_TAB = CREATIVE_MODE_TABS.register("arcane_food_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KOHLRABI.get()))
+                    .title(Component.translatable("creativetab.thearcaneforge.arcane_food_tab"))
+                    .displayItems((itemDisplayParameters,output) -> {
+
+                        output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.RADISH.get());
 
                     }).build());
 

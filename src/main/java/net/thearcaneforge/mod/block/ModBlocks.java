@@ -57,6 +57,19 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    //BISMUTH
+    public static final RegistryObject<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+
+    public static final RegistryObject<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BISMUTH_DEESLATE_ORE = registerBlock("bismuth_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
 
 
 

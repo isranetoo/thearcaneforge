@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thearcaneforge:bismuth_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "thearcaneforge:bismuth_gemstone"
+  }
+}

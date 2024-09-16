@@ -55,31 +55,54 @@ public class TheArcaneForge
 
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
             event.accept(ModITools.ARCANE_CHISEL);
             event.accept(ModITools.GARNET_CHISEL);
+            event.accept(ModITools.BISMUTH_CHISEL);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.KOHLRABI);
+            event.accept(ModItems.RADISH);
         }
 
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+
+            //ARCANE
             event.accept(ModItems.ARCANE_GEMSTONE);
             event.accept(ModItems.RAW_ARCANE_ORE);
+            //GARNET
             event.accept(ModItems.PINK_GARNET);
             event.accept(ModItems.RAW_PINK_GARNET);
+            //BISMUTH
+            event.accept(ModItems.BISMUTH_GEMSTONE);
+            event.accept(ModItems.RAW_BISMUTH);
         }
-        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+
             event.accept(ModBlocks.ARCANE_BLOCK);
+            event.accept(ModBlocks.PINK_GARNET_BLOCK);
+            event.accept(ModBlocks.BISMUTH_BLOCK);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+
+            //ARCANE
             event.accept(ModBlocks.RAW_ARCANE_BLOCK);
             event.accept(ModBlocks.ARCANE_ORE);
             event.accept(ModBlocks.ARCANE_DEEPSLATE_ORE);
 
-            event.accept(ModBlocks.PINK_GARNET_BLOCK);
+            //GARNET
             event.accept(ModBlocks.RAW_PINK_GARNET_BLOCK);
             event.accept(ModBlocks.PINK_GARNET_ORE);
             event.accept(ModBlocks.PINK_GARNET_DEESLATE_ORE);
 
+            //BISMUTH
+            event.accept(ModBlocks.BISMUTH_ORE);
+            event.accept(ModBlocks.BISMUTH_DEESLATE_ORE);
 
         }
     }
