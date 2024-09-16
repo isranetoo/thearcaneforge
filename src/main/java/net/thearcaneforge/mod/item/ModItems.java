@@ -6,7 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
-import net.thearcaneforge.mod.item.custom.ChiselItem;
+import net.thearcaneforge.mod.item.custom.ArcaneChiselItem;
 
 public class ModItems {
     public  static  final DeferredRegister<Item> ITEMS =

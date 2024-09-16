@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_tools_tab"))
                     .displayItems((itemDisplayParameters,output) -> {
                         output.accept(ModITools.ARCANE_CHISEL.get());
+                        output.accept(ModITools.GARNET_CHISEL.get());
 
                     }).build());
 
@@ -26,9 +27,12 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ARCANE_GEMSTONE.get()))
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_gemstone_items"))
                     .displayItems((itemDisplayParameters,output) -> {
+
+                        //ARCANE
                         output.accept(ModItems.ARCANE_GEMSTONE.get());
                         output.accept(ModItems.RAW_ARCANE_ORE.get());
 
+                        //GARNET
                         output.accept(ModItems.PINK_GARNET.get());
                         output.accept(ModItems.RAW_PINK_GARNET.get());
 

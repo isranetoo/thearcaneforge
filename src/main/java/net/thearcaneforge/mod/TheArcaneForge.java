@@ -60,6 +60,7 @@ public class TheArcaneForge
 
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
             event.accept(ModITools.ARCANE_CHISEL);
+            event.accept(ModITools.GARNET_CHISEL);
         }
 
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){

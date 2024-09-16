@@ -2,7 +2,6 @@ package net.thearcaneforge.mod.item.custom;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
@@ -16,16 +15,16 @@ import net.thearcaneforge.mod.block.ModBlocks;
 
 import java.util.Map;
 
-public class ChiselItem extends Item {
-    private static final Map<Block, Block> CHISEL_MAP =
+public class GarnetChiselItem extends Item {
+    private static final Map<Block, Block> GARNET_CHISEL_MAP =
             Map.of(
                     Blocks.STONE, Blocks.STONE_BRICKS,
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
                     Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS,
-                    Blocks.DIRT, ModBlocks.ARCANE_BLOCK.get()
+                    Blocks.DIRT, ModBlocks.PINK_GARNET_BLOCK.get()
             );
 
-    public ChiselItem(Properties pProperties){
+    public GarnetChiselItem(Properties pProperties){
         super(pProperties);
     }
 
@@ -34,9 +33,9 @@ public class ChiselItem extends Item {
         Level level = pContext.getLevel();
         Block clickedBlock = level.getBlockState(pContext.getClickedPos()).getBlock();
 
-        if (CHISEL_MAP.containsKey(clickedBlock)){
+        if (GARNET_CHISEL_MAP.containsKey(clickedBlock)){
             if (!level.isClientSide()){
-                level.setBlockAndUpdate(pContext.getClickedPos(), CHISEL_MAP.get(clickedBlock).defaultBlockState());
+                level.setBlockAndUpdate(pContext.getClickedPos(), GARNET_CHISEL_MAP.get(clickedBlock).defaultBlockState());
 
                 pContext.getItemInHand().hurtAndBreak(1,((ServerLevel)level),((ServerPlayer) pContext.getPlayer()),
                 item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
