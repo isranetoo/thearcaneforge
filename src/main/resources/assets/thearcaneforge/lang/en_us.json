@@ -30,9 +30,21 @@
   "block.thearcaneforge.bismuth_ore": "Bismuth Ore",
   "block.thearcaneforge.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
-
   "creativetab.thearcaneforge.arcane_tools_tab": "The Arcane Tools",
   "creativetab.thearcaneforge.arcane_gemstone_items": "The Arcane Items",
   "creativetab.thearcaneforge.arcane_gemstone_blocks": "The Arcane Blocks",
-  "creativetab.thearcaneforge.arcane_food_tab": "The Arcane Food"
+  "creativetab.thearcaneforge.arcane_food_tab": "The Arcane Food",
+
+  "tooltip.thearcaneforge.arcane_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
+  "tooltip.thearcaneforge.arcane_chisel": "Press §eShift§r for more Information !",
+  "tooltip.thearcaneforge.bismuth_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
+  "tooltip.thearcaneforge.bismuth_chisel": "Press §eShift§r for more Information !",
+  "tooltip.thearcaneforge.garnet_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
+  "tooltip.thearcaneforge.garnet_chisel": "Press §eShift§r for more Information !",
+  "tooltip.thearcaneforge.kohlrabi": "20% of §6INVISIBILITY§r",
+  "tooltip.thearcaneforge.radish": "20% of §3DOLPHINS GRACE§r",
+  "tooltip.thearcaneforge.cauliflower": "20% of §5NIGHT VISION§r",
+  "tooltip.thearcaneforge.arcane_ashes": "Can be used as §cFUEL§r",
+  "tooltip.thearcaneforge.garnet_ashes": "Can be used as §cFUEL§r",
+  "tooltip.thearcaneforge.frostfire_ice": "Can be used as §cFUEL§r"
 }
