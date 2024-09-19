@@ -44,6 +44,7 @@ public class GarnetChiselItem extends Item {
             }
         }
 
+
         return InteractionResult.SUCCESS;
     }
 }

@@ -66,6 +66,7 @@ public class TheArcaneForge
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.KOHLRABI);
             event.accept(ModItems.RADISH);
+            event.accept(ModItems.CAULIFLOWER);
         }
 
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
@@ -79,6 +80,10 @@ public class TheArcaneForge
             //BISMUTH
             event.accept(ModItems.BISMUTH_GEMSTONE);
             event.accept(ModItems.RAW_BISMUTH);
+            //FUEL
+            event.accept(ModItems.ARCANE_ASHES);
+            event.accept(ModItems.GARNET_ASHES);
+            event.accept(ModItems.FROSTFIRE_ICE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){

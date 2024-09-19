@@ -42,6 +42,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_GEMSTONE.get());
                         output.accept(ModItems.RAW_BISMUTH.get());
 
+                        //FUEL
+                        output.accept(ModItems.ARCANE_ASHES.get());
+                        output.accept(ModItems.GARNET_ASHES.get());
+                        output.accept(ModItems.FROSTFIRE_ICE.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> ARCANE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("arcane_blocks_tab",
@@ -76,6 +81,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.RADISH.get());
+                        output.accept(ModItems.CAULIFLOWER.get());
 
                     }).build());
 
