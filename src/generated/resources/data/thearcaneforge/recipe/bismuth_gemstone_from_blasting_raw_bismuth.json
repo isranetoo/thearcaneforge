@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.25,
+  "group": "bismuth_gemstone",
+  "ingredient": {
+    "item": "thearcaneforge:raw_bismuth"
+  },
+  "result": {
+    "id": "thearcaneforge:bismuth_gemstone"
+  }
+}

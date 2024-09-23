@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_arcane_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thearcaneforge:raw_arcane_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thearcaneforge:arcane_gemstone_from_smelting_raw_arcane_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_arcane_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thearcaneforge:arcane_gemstone_from_smelting_raw_arcane_ore"
+    ]
+  }
+}

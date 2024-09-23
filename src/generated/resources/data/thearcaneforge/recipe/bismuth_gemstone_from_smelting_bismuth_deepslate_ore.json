@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.25,
+  "group": "bismuth_gemstone",
+  "ingredient": {
+    "item": "thearcaneforge:bismuth_deepslate_ore"
+  },
+  "result": {
+    "id": "thearcaneforge:bismuth_gemstone"
+  }
+}

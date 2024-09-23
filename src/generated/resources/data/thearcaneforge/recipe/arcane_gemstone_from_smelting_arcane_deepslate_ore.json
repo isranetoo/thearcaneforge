@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.25,
+  "group": "arcane_gemstone",
+  "ingredient": {
+    "item": "thearcaneforge:arcane_deepslate_ore"
+  },
+  "result": {
+    "id": "thearcaneforge:arcane_gemstone"
+  }
+}
