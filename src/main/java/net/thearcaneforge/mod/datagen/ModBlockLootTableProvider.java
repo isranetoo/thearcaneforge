@@ -35,6 +35,21 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //ARCANE
         dropSelf(ModBlocks.ARCANE_BLOCK.get());
 
+        //DECORATIVES
+        dropSelf(ModBlocks.ARCANE_STAIRS.get());
+        this.add(ModBlocks.ARCANE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ARCANE_SLAB.get()));
+
+        dropSelf(ModBlocks.ARCANE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.ARCANE_BUTTON.get());
+        dropSelf(ModBlocks.ARCANE_FENCE.get());
+        dropSelf(ModBlocks.ARCANE_FENCE_GATE.get());
+        dropSelf(ModBlocks.ARCANE_WALL.get());
+        dropSelf(ModBlocks.ARCANE_TRAPDOOR.get());
+
+        this.add(ModBlocks.ARCANE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.ARCANE_DOOR.get()));
+
         //GARNET
         dropSelf(ModBlocks.PINK_GARNET_BLOCK.get());
 

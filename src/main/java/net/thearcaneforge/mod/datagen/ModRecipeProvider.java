@@ -40,6 +40,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pRecipeOutput, ARCANE_SMELTABLES, RecipeCategory.MISC, ModItems.ARCANE_GEMSTONE.get(), 0.25f,250,"arcane_gemstone");
         oreBlasting(pRecipeOutput, ARCANE_SMELTABLES, RecipeCategory.MISC, ModItems.ARCANE_GEMSTONE.get(), 0.25f,150,"arcane_gemstone");
 
+        //DECORATIVES
+        stairBuilder(ModBlocks.ARCANE_STAIRS.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCANE_SLAB.get(), ModItems.ARCANE_GEMSTONE.get());
+
+        buttonBuilder(ModBlocks.ARCANE_BUTTON.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.ARCANE_PRESSURE_PLATE.get(), ModItems.ARCANE_GEMSTONE.get());
+
+        fenceBuilder(ModBlocks.ARCANE_FENCE.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.ARCANE_FENCE_GATE.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCANE_WALL.get(), ModItems.ARCANE_GEMSTONE.get());
+
+        doorBuilder(ModBlocks.ARCANE_DOOR.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.ARCANE_TRAPDOOR.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
+
         //GARNET
 
         List<ItemLike> GARNET_SMELTABLES = List.of(ModItems.RAW_PINK_GARNET.get(),

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "thearcaneforge:block/arcane_door_bottom",
+    "top": "thearcaneforge:block/arcane_door_top"
+  }
+}

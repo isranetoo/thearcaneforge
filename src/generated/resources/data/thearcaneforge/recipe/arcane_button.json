@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "arcane_gemstone",
+  "ingredients": [
+    {
+      "item": "thearcaneforge:arcane_gemstone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:arcane_button"
+  }
+}

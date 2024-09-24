@@ -61,6 +61,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ARCANE_ORE.get());
                         output.accept(ModBlocks.ARCANE_DEEPSLATE_ORE.get());
 
+                        //DECORATIVES
+                        output.accept(ModBlocks.ARCANE_STAIRS.get());
+                        output.accept(ModBlocks.ARCANE_SLAB.get());
+                        output.accept(ModBlocks.ARCANE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.ARCANE_BUTTON.get());
+                        output.accept(ModBlocks.ARCANE_FENCE.get());
+                        output.accept(ModBlocks.ARCANE_FENCE_GATE.get());
+                        output.accept(ModBlocks.ARCANE_WALL.get());
+                        output.accept(ModBlocks.ARCANE_DOOR.get());
+                        output.accept(ModBlocks.ARCANE_TRAPDOOR.get());
+
                         //GARNET
                         output.accept(ModBlocks.PINK_GARNET_BLOCK.get());
                         output.accept(ModBlocks.RAW_PINK_GARNET_BLOCK.get());
@@ -71,6 +82,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_BLOCK.get());
                         output.accept(ModBlocks.BISMUTH_ORE.get());
                         output.accept(ModBlocks.BISMUTH_DEESLATE_ORE.get());
+
 
                     }).build());
 

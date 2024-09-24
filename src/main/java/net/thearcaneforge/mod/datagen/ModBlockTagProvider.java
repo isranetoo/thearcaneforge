@@ -52,5 +52,8 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
                 .add(ModBlocks.PINK_GARNET_DEESLATE_ORE.get())
                 .add(ModBlocks.BISMUTH_DEESLATE_ORE.get());
 
+        tag(BlockTags.FENCES).add(ModBlocks.ARCANE_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.ARCANE_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.ARCANE_WALL.get());
     }
 }

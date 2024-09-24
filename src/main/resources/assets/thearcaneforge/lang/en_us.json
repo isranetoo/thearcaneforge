@@ -30,6 +30,16 @@
   "block.thearcaneforge.bismuth_ore": "Bismuth Ore",
   "block.thearcaneforge.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
+  "block.thearcaneforge.arcane_stairs": "Arcane Stairs",
+  "block.thearcaneforge.arcane_slab": "Arcane Slab",
+  "block.thearcaneforge.arcane_pressure_plate": "Arcane Pressure Plate",
+  "block.thearcaneforge.arcane_button": "Arcane Button",
+  "block.thearcaneforge.arcane_fence": "Arcane Fence",
+  "block.thearcaneforge.arcane_fence_gate": "Arcane Fence Gate",
+  "block.thearcaneforge.arcane_wall": "Arcane Wall",
+  "block.thearcaneforge.arcane_door": "Arcane Door",
+  "block.thearcaneforge.arcane_trapdoor": "Arcane Trapdoor",
+
   "creativetab.thearcaneforge.arcane_tools_tab": "The Arcane Tools",
   "creativetab.thearcaneforge.arcane_gemstone_items": "The Arcane Items",
   "creativetab.thearcaneforge.arcane_gemstone_blocks": "The Arcane Blocks",

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thearcaneforge:block/arcane_slab"
+    },
+    "type=double": {
+      "model": "thearcaneforge:block/arcane_block"
+    },
+    "type=top": {
+      "model": "thearcaneforge:block/arcane_slab_top"
+    }
+  }
+}

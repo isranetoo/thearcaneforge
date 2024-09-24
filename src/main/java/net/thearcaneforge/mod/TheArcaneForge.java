@@ -91,6 +91,17 @@ public class TheArcaneForge
             event.accept(ModBlocks.ARCANE_BLOCK);
             event.accept(ModBlocks.PINK_GARNET_BLOCK);
             event.accept(ModBlocks.BISMUTH_BLOCK);
+
+            //DECORATIVES
+            event.accept(ModBlocks.ARCANE_STAIRS);
+            event.accept(ModBlocks.ARCANE_SLAB);
+            event.accept(ModBlocks.ARCANE_PRESSURE_PLATE);
+            event.accept(ModBlocks.ARCANE_BUTTON);
+            event.accept(ModBlocks.ARCANE_FENCE);
+            event.accept(ModBlocks.ARCANE_FENCE_GATE);
+            event.accept(ModBlocks.ARCANE_WALL);
+            event.accept(ModBlocks.ARCANE_DOOR);
+            event.accept(ModBlocks.ARCANE_TRAPDOOR);
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
