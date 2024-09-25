@@ -50,6 +50,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.PINK_GARNET_ORE);
         blockWithItem(ModBlocks.PINK_GARNET_DEESLATE_ORE);
 
+        //DECORATIVES
+
+        stairsBlock(ModBlocks.PINK_GARNET_STAIRS.get(), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()));
+        slabBlock(ModBlocks.PINK_GARNET_SLAB.get(), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()));
+
+        buttonBlock(ModBlocks.PINK_GARNET_BUTTON.get(), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()));
+        pressurePlateBlock(ModBlocks.PINK_GARNET_PRESSURE_PLATE.get(), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()));
+
+        fenceBlock(ModBlocks.PINK_GARNET_FENCE.get(), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()));
+        fenceGateBlock(ModBlocks.PINK_GARNET_FENCE_GATE.get(), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()));
+        wallBlock(ModBlocks.PINK_GARNET_WALL.get(), blockTexture(ModBlocks.PINK_GARNET_BLOCK.get()));
+
+        doorBlockWithRenderType(ModBlocks.PINK_GARNET_DOOR.get(), modLoc("block/pink_garnet_door_bottom"), modLoc("block/pink_garnet_door_top"), "cutout");
+        trapdoorBlockWithRenderType(ModBlocks.PINK_GARNET_TRAPDOOR.get(), modLoc("block/pink_garnet_trapdoor"), true, "cutout");
+
+        blockItem(ModBlocks.PINK_GARNET_STAIRS);
+        blockItem(ModBlocks.PINK_GARNET_SLAB);
+        blockItem(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+        blockItem(ModBlocks.PINK_GARNET_FENCE_GATE);
+        blockItem(ModBlocks.PINK_GARNET_TRAPDOOR, "_bottom");
+
         //BISMUTH
         blockWithItem(ModBlocks.BISMUTH_BLOCK);
         blockWithItem(ModBlocks.BISMUTH_ORE);
@@ -61,12 +82,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     }
 
     private void blockItem(RegistryObject<? extends Block> blockRegistryObject) {
-        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" +
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("thearcaneforge:block/" +
                 ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
     }
 
     private void blockItem(RegistryObject<? extends Block> blockRegistryObject, String appendix) {
-        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" +
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("thearcaneforge:block/" +
                 ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
     }
 }

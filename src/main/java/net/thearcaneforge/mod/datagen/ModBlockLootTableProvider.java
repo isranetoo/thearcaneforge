@@ -35,11 +35,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //ARCANE
         dropSelf(ModBlocks.ARCANE_BLOCK.get());
 
-        //DECORATIVES
-        dropSelf(ModBlocks.ARCANE_STAIRS.get());
-        this.add(ModBlocks.ARCANE_SLAB.get(),
-                block -> createSlabItemTable(ModBlocks.ARCANE_SLAB.get()));
+        //DECORATIVES ARCANE
 
+        dropSelf(ModBlocks.ARCANE_STAIRS.get());
         dropSelf(ModBlocks.ARCANE_PRESSURE_PLATE.get());
         dropSelf(ModBlocks.ARCANE_BUTTON.get());
         dropSelf(ModBlocks.ARCANE_FENCE.get());
@@ -47,8 +45,25 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ARCANE_WALL.get());
         dropSelf(ModBlocks.ARCANE_TRAPDOOR.get());
 
+        this.add(ModBlocks.ARCANE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ARCANE_SLAB.get()));
         this.add(ModBlocks.ARCANE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.ARCANE_DOOR.get()));
+
+        //DECORATIVES GARNET
+
+        dropSelf(ModBlocks.PINK_GARNET_STAIRS.get());
+        dropSelf(ModBlocks.PINK_GARNET_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.PINK_GARNET_BUTTON.get());
+        dropSelf(ModBlocks.PINK_GARNET_FENCE.get());
+        dropSelf(ModBlocks.PINK_GARNET_FENCE_GATE.get());
+        dropSelf(ModBlocks.PINK_GARNET_WALL.get());
+        dropSelf(ModBlocks.PINK_GARNET_TRAPDOOR.get());
+
+        this.add(ModBlocks.PINK_GARNET_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PINK_GARNET_SLAB.get()));
+        this.add(ModBlocks.PINK_GARNET_DOOR.get(),
+                block -> createDoorTable(ModBlocks.PINK_GARNET_DOOR.get()));
 
         //GARNET
         dropSelf(ModBlocks.PINK_GARNET_BLOCK.get());
@@ -56,9 +71,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //BISMUTH
         dropSelf(ModBlocks.BISMUTH_BLOCK.get());
 
+
         // --ORES-- //
 
-        //ARCANE
+        //ARCANE ORES
         this.add(ModBlocks.ARCANE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.ARCANE_ORE.get(), ModItems.RAW_ARCANE_ORE.get(),2,6));
         this.add(ModBlocks.ARCANE_DEEPSLATE_ORE.get(),
@@ -66,7 +82,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.RAW_ARCANE_BLOCK.get(),
                 block -> createMultipleOreDrops(ModBlocks.RAW_ARCANE_BLOCK.get(), ModItems.RAW_ARCANE_ORE.get(),2,6));
 
-        //GARNET
+        //GARNET ORES
         this.add(ModBlocks.PINK_GARNET_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.PINK_GARNET_ORE.get(), ModItems.RAW_PINK_GARNET.get(),2,6));
         this.add(ModBlocks.PINK_GARNET_DEESLATE_ORE.get(),
@@ -74,7 +90,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.RAW_PINK_GARNET_BLOCK.get(),
                 block -> createMultipleOreDrops(ModBlocks.RAW_PINK_GARNET_BLOCK.get(), ModItems.RAW_PINK_GARNET.get(),2,6));
 
-        //BISMUTH
+        //BISMUTH ORES
         this.add(ModBlocks.BISMUTH_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get(),2,6));
         this.add(ModBlocks.BISMUTH_DEESLATE_ORE.get(),

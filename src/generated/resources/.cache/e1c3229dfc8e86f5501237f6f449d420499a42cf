@@ -1,4 +1,4 @@
-// 1.21	2024-09-24T14:55:39.2317642	Item Models: thearcaneforge
+// 1.21	2024-09-24T23:46:44.6312383	Item Models: thearcaneforge
 e781e9a09fda9d403313ee81d4089bbaa73fbef2 assets/thearcaneforge/models/item/arcane_ashes.json
 6378867542d5f20f638fe672ab53ffb9cc41147b assets/thearcaneforge/models/item/arcane_button.json
 89252fff301f273cdd3b2bead1758329fa753da6 assets/thearcaneforge/models/item/arcane_chisel.json
@@ -14,6 +14,10 @@ caf4e0fad4fc3748b4a5368f014132b1eb89a25c assets/thearcaneforge/models/item/frost
 88394c7414340545cb1f212af1b83b82d13d4a45 assets/thearcaneforge/models/item/garnet_chisel.json
 0d66da62fa54900c49b0b21d6217e50bd2f62677 assets/thearcaneforge/models/item/kohlrabi.json
 328faca6bdb691c1a48e97a9e986a3ea5f892e2b assets/thearcaneforge/models/item/pink_garnet.json
+59b413d4555a66d203300e6bf1bc84b03816d5e2 assets/thearcaneforge/models/item/pink_garnet_button.json
+f45ce80d9716628f4e9e4946e37c080d1558f65c assets/thearcaneforge/models/item/pink_garnet_door.json
+af5d55364da17dda3382be08dfe4a567c31ddaf4 assets/thearcaneforge/models/item/pink_garnet_fence.json
+ea0181df812fbc8ffa625c37d732cc0a12406611 assets/thearcaneforge/models/item/pink_garnet_wall.json
 dc2957ee3665204465fe411a6cc36c28f06a7d41 assets/thearcaneforge/models/item/radish.json
 2cc4e108499ca1d4d1c92850e745d8f527354c6c assets/thearcaneforge/models/item/raw_arcane_ore.json
 64abcb468439c4caaa56c86e4d74a8232496cf56 assets/thearcaneforge/models/item/raw_bismuth.json

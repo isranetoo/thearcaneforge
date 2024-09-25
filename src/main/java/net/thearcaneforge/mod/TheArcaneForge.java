@@ -93,6 +93,8 @@ public class TheArcaneForge
             event.accept(ModBlocks.BISMUTH_BLOCK);
 
             //DECORATIVES
+
+            //ARCANE
             event.accept(ModBlocks.ARCANE_STAIRS);
             event.accept(ModBlocks.ARCANE_SLAB);
             event.accept(ModBlocks.ARCANE_PRESSURE_PLATE);
@@ -102,6 +104,18 @@ public class TheArcaneForge
             event.accept(ModBlocks.ARCANE_WALL);
             event.accept(ModBlocks.ARCANE_DOOR);
             event.accept(ModBlocks.ARCANE_TRAPDOOR);
+
+            //GARNET
+            event.accept(ModBlocks.PINK_GARNET_STAIRS);
+            event.accept(ModBlocks.PINK_GARNET_SLAB);
+            event.accept(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+            event.accept(ModBlocks.PINK_GARNET_BUTTON);
+            event.accept(ModBlocks.PINK_GARNET_FENCE);
+            event.accept(ModBlocks.PINK_GARNET_FENCE_GATE);
+            event.accept(ModBlocks.PINK_GARNET_WALL);
+            event.accept(ModBlocks.PINK_GARNET_DOOR);
+            event.accept(ModBlocks.PINK_GARNET_TRAPDOOR);
+
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){

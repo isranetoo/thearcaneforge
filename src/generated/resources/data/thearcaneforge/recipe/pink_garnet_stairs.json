@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "pink_garnet",
+  "key": {
+    "#": {
+      "item": "thearcaneforge:pink_garnet"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "thearcaneforge:pink_garnet_stairs"
+  }
+}

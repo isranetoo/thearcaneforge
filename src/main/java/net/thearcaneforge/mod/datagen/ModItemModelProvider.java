@@ -49,11 +49,20 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.FROSTFIRE_ICE.get());
 
         //DECORATIVES
+
+        //ARCANE
         buttonItem(ModBlocks.ARCANE_BUTTON, ModBlocks.ARCANE_BLOCK);
         fenceItem(ModBlocks.ARCANE_FENCE, ModBlocks.ARCANE_BLOCK);
         wallItem(ModBlocks.ARCANE_WALL, ModBlocks.ARCANE_BLOCK);
 
         simpleBlockItem(ModBlocks.ARCANE_DOOR);
+
+        //GARNET
+        buttonItem(ModBlocks.PINK_GARNET_BUTTON, ModBlocks.PINK_GARNET_BLOCK);
+        fenceItem(ModBlocks.PINK_GARNET_FENCE, ModBlocks.PINK_GARNET_BLOCK);
+        wallItem(ModBlocks.PINK_GARNET_WALL, ModBlocks.PINK_GARNET_BLOCK);
+
+        simpleBlockItem(ModBlocks.PINK_GARNET_DOOR);
     }
 
     public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {

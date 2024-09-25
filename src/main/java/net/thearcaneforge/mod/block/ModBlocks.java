@@ -103,6 +103,36 @@ public class ModBlocks {
     public static final RegistryObject<TrapDoorBlock> ARCANE_TRAPDOOR = registerBlock("arcane_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
 
+    //GARNET
+    public static final RegistryObject<StairBlock> PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
+            () -> new StairBlock(ModBlocks.PINK_GARNET_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<SlabBlock> PINK_GARNET_SLAB = registerBlock("pink_garnet_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<PressurePlateBlock> PINK_GARNET_PRESSURE_PLATE = registerBlock("pink_garnet_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<ButtonBlock> PINK_GARNET_BUTTON = registerBlock("pink_garnet_button",
+            () -> new ButtonBlock(BlockSetType.IRON,1, BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops().noCollission()));
+
+    public static final RegistryObject<FenceBlock> PINK_GARNET_FENCE = registerBlock("pink_garnet_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<FenceGateBlock> PINK_GARNET_FENCE_GATE = registerBlock("pink_garnet_fence_gate",
+            () -> new FenceGateBlock(WoodType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<WallBlock> PINK_GARNET_WALL = registerBlock("pink_garnet_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<DoorBlock> PINK_GARNET_DOOR = registerBlock("pink_garnet_door",
+            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final RegistryObject<TrapDoorBlock> PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
 
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

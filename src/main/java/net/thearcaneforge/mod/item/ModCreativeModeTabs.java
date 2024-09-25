@@ -62,6 +62,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ARCANE_DEEPSLATE_ORE.get());
 
                         //DECORATIVES
+
                         output.accept(ModBlocks.ARCANE_STAIRS.get());
                         output.accept(ModBlocks.ARCANE_SLAB.get());
                         output.accept(ModBlocks.ARCANE_PRESSURE_PLATE.get());
@@ -78,6 +79,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PINK_GARNET_ORE.get());
                         output.accept(ModBlocks.PINK_GARNET_DEESLATE_ORE.get());
 
+                        //DECONATIVES
+
+                        output.accept(ModBlocks.PINK_GARNET_STAIRS.get());
+                        output.accept(ModBlocks.PINK_GARNET_SLAB.get());
+                        output.accept(ModBlocks.PINK_GARNET_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.PINK_GARNET_BUTTON.get());
+                        output.accept(ModBlocks.PINK_GARNET_FENCE.get());
+                        output.accept(ModBlocks.PINK_GARNET_FENCE_GATE.get());
+                        output.accept(ModBlocks.PINK_GARNET_WALL.get());
+                        output.accept(ModBlocks.PINK_GARNET_DOOR.get());
+                        output.accept(ModBlocks.PINK_GARNET_TRAPDOOR.get());
+
                         //BISMUTH
                         output.accept(ModBlocks.BISMUTH_BLOCK.get());
                         output.accept(ModBlocks.BISMUTH_ORE.get());
@@ -85,6 +98,7 @@ public class ModCreativeModeTabs {
 
 
                     }).build());
+    
 
     public static final RegistryObject<CreativeModeTab> ARCANE_FOOD_TAB = CREATIVE_MODE_TABS.register("arcane_food_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KOHLRABI.get()))

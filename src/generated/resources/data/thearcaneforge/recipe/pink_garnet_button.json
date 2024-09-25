@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "pink_garnet",
+  "ingredients": [
+    {
+      "item": "thearcaneforge:pink_garnet"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:pink_garnet_button"
+  }
+}

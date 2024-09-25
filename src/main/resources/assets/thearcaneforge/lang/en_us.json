@@ -40,6 +40,16 @@
   "block.thearcaneforge.arcane_door": "Arcane Door",
   "block.thearcaneforge.arcane_trapdoor": "Arcane Trapdoor",
 
+  "block.thearcaneforge.pink_garnet_stairs": "Garnet Stairs",
+  "block.thearcaneforge.pink_garnet_slab": "Garnet Slab",
+  "block.thearcaneforge.pink_garnet_pressure_plate": "Garnet Pressure Plate",
+  "block.thearcaneforge.pink_garnet_button": "Garnet Button",
+  "block.thearcaneforge.pink_garnet_fence": "Garnet Fence",
+  "block.thearcaneforge.pink_garnet_fence_gate": "Garnet Fence Gate",
+  "block.thearcaneforge.pink_garnet_wall": "Garnet Wall",
+  "block.thearcaneforge.pink_garnet_door": "Garnet Door",
+  "block.thearcaneforge.pink_garnet_trapdoor": "Garnet Trapdoor",
+
   "creativetab.thearcaneforge.arcane_tools_tab": "The Arcane Tools",
   "creativetab.thearcaneforge.arcane_gemstone_items": "The Arcane Items",
   "creativetab.thearcaneforge.arcane_gemstone_blocks": "The Arcane Blocks",

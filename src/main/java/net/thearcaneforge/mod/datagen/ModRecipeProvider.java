@@ -79,6 +79,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pRecipeOutput, GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET.get(), 0.25f,200,"pink_garnet");
         oreBlasting(pRecipeOutput, GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET.get(), 0.25f,100,"pink_garnet");
 
+        //DECORATIVES
+
+        stairBuilder(ModBlocks.PINK_GARNET_STAIRS.get(), Ingredient.of(ModItems.PINK_GARNET.get())).group("pink_garnet")
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_SLAB.get(), ModItems.PINK_GARNET.get());
+
+        buttonBuilder(ModBlocks.PINK_GARNET_BUTTON.get(), Ingredient.of(ModItems.PINK_GARNET.get())).group("pink_garnet")
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.PINK_GARNET_PRESSURE_PLATE.get(), ModItems.PINK_GARNET.get());
+
+        fenceBuilder(ModBlocks.PINK_GARNET_FENCE.get(), Ingredient.of(ModItems.PINK_GARNET.get())).group("pink_garnet")
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.PINK_GARNET_FENCE_GATE.get(), Ingredient.of(ModItems.PINK_GARNET.get())).group("pink_garnet")
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get())).save(pRecipeOutput);
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_WALL.get(), ModItems.PINK_GARNET.get());
+
+        doorBuilder(ModBlocks.PINK_GARNET_DOOR.get(), Ingredient.of(ModItems.PINK_GARNET.get())).group("pink_garnet")
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.PINK_GARNET_TRAPDOOR.get(), Ingredient.of(ModItems.PINK_GARNET.get())).group("pink_garnet")
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get())).save(pRecipeOutput);
+
+
         //BISMUTH
 
         List<ItemLike> BISMUTH_SMELTABLES = List.of(ModItems.RAW_BISMUTH.get(),
