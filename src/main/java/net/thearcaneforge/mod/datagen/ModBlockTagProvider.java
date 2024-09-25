@@ -64,5 +64,10 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
         tag(BlockTags.FENCE_GATES).add(ModBlocks.PINK_GARNET_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.PINK_GARNET_WALL.get());
 
+        //BISMUTH
+        tag(BlockTags.FENCES).add(ModBlocks.BISMUTH_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.BISMUTH_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.BISMUTH_WALL.get());
+
     }
 }

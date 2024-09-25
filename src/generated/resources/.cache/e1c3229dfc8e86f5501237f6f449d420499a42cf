@@ -1,4 +1,4 @@
-// 1.21	2024-09-24T23:46:44.6312383	Item Models: thearcaneforge
+// 1.21	2024-09-25T00:23:42.744936	Item Models: thearcaneforge
 e781e9a09fda9d403313ee81d4089bbaa73fbef2 assets/thearcaneforge/models/item/arcane_ashes.json
 6378867542d5f20f638fe672ab53ffb9cc41147b assets/thearcaneforge/models/item/arcane_button.json
 89252fff301f273cdd3b2bead1758329fa753da6 assets/thearcaneforge/models/item/arcane_chisel.json
@@ -6,8 +6,12 @@ d23f5939265eec6ab61a5635cf93414954af3c6f assets/thearcaneforge/models/item/arcan
 e63f2a531bf54ca3d7d68859ff5d7f4e89a70539 assets/thearcaneforge/models/item/arcane_fence.json
 d07baeb6bd1ccd68dc219a05287558305b4d18da assets/thearcaneforge/models/item/arcane_gemstone.json
 a00d89baa345e9a67535f99845d808224a598585 assets/thearcaneforge/models/item/arcane_wall.json
+aa66edd225c39d2869f68dba89d0aa532abd4741 assets/thearcaneforge/models/item/bismuth_button.json
 cdbca6d56903737e74659554f07ee76722116f8e assets/thearcaneforge/models/item/bismuth_chisel.json
+d054073d344a560c228eb88056a1381222dc5178 assets/thearcaneforge/models/item/bismuth_door.json
+0a5ef8aa498c64cc318d544e965d9cd67d2bc2ba assets/thearcaneforge/models/item/bismuth_fence.json
 1043884dcf90f2b2352b75f234af0457f96f3cef assets/thearcaneforge/models/item/bismuth_gemstone.json
+820e46a5aca8135f382709d221498d45d76eeb1b assets/thearcaneforge/models/item/bismuth_wall.json
 cedf05c81bf056c74f9a17aba4a04082c5887f77 assets/thearcaneforge/models/item/cauliflower.json
 caf4e0fad4fc3748b4a5368f014132b1eb89a25c assets/thearcaneforge/models/item/frostfire_ice.json
 5c9404f23457b65eb118ff03ed2be7e29c17ee39 assets/thearcaneforge/models/item/garnet_ashes.json

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "bismuth_gemstone",
+  "ingredients": [
+    {
+      "item": "thearcaneforge:bismuth_gemstone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:bismuth_button"
+  }
+}

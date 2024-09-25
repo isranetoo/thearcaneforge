@@ -116,6 +116,19 @@ public class TheArcaneForge
             event.accept(ModBlocks.PINK_GARNET_DOOR);
             event.accept(ModBlocks.PINK_GARNET_TRAPDOOR);
 
+            //BISMUTH
+            event.accept(ModBlocks.BISMUTH_STAIRS);
+            event.accept(ModBlocks.BISMUTH_SLAB);
+            event.accept(ModBlocks.BISMUTH_PRESSURE_PLATE);
+            event.accept(ModBlocks.BISMUTH_BUTTON);
+            event.accept(ModBlocks.BISMUTH_FENCE);
+            event.accept(ModBlocks.BISMUTH_FENCE_GATE);
+            event.accept(ModBlocks.BISMUTH_WALL);
+            event.accept(ModBlocks.BISMUTH_DOOR);
+            event.accept(ModBlocks.BISMUTH_TRAPDOOR);
+
+
+
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){

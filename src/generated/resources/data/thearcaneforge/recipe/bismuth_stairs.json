@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "bismuth_gemstone",
+  "key": {
+    "#": {
+      "item": "thearcaneforge:bismuth_gemstone"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "thearcaneforge:bismuth_stairs"
+  }
+}

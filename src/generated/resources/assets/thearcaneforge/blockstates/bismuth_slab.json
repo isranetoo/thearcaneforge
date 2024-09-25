@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thearcaneforge:block/bismuth_slab"
+    },
+    "type=double": {
+      "model": "thearcaneforge:block/bismuth_block"
+    },
+    "type=top": {
+      "model": "thearcaneforge:block/bismuth_slab_top"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "bismuth_gemstone",
+  "key": {
+    "#": {
+      "item": "thearcaneforge:bismuth_gemstone"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "thearcaneforge:bismuth_door"
+  }
+}

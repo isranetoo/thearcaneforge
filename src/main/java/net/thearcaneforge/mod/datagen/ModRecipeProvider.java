@@ -121,6 +121,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pRecipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH_GEMSTONE.get(), 0.25f,50,"bismuth_gemstone");
 
 
+        //DECORATIVES
+
+        stairBuilder(ModBlocks.BISMUTH_STAIRS.get(), Ingredient.of(ModItems.BISMUTH_GEMSTONE.get())).group("bismuth_gemstone")
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_SLAB.get(), ModItems.BISMUTH_GEMSTONE.get());
+
+        buttonBuilder(ModBlocks.BISMUTH_BUTTON.get(), Ingredient.of(ModItems.BISMUTH_GEMSTONE.get())).group("bismuth_gemstone")
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.BISMUTH_PRESSURE_PLATE.get(), ModItems.BISMUTH_GEMSTONE.get());
+
+        fenceBuilder(ModBlocks.BISMUTH_FENCE.get(), Ingredient.of(ModItems.BISMUTH_GEMSTONE.get())).group("bismuth_gemstone")
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get())).save(pRecipeOutput);
+        fenceGateBuilder(ModBlocks.BISMUTH_FENCE_GATE.get(), Ingredient.of(ModItems.BISMUTH_GEMSTONE.get())).group("bismuth_gemstone")
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get())).save(pRecipeOutput);
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_WALL.get(), ModItems.BISMUTH_GEMSTONE.get());
+
+        doorBuilder(ModBlocks.BISMUTH_DOOR.get(), Ingredient.of(ModItems.BISMUTH_GEMSTONE.get())).group("bismuth_gemstone")
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.BISMUTH_TRAPDOOR.get(), Ingredient.of(ModItems.BISMUTH_GEMSTONE.get())).group("bismuth_gemstone")
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get())).save(pRecipeOutput);
+
     }
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTIme, String pGroup) {

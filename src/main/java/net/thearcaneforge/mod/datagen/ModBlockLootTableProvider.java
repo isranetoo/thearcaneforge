@@ -65,6 +65,21 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.PINK_GARNET_DOOR.get(),
                 block -> createDoorTable(ModBlocks.PINK_GARNET_DOOR.get()));
 
+        //DECORATIVES BISMUTH
+
+        dropSelf(ModBlocks.BISMUTH_STAIRS.get());
+        dropSelf(ModBlocks.BISMUTH_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BISMUTH_BUTTON.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE_GATE.get());
+        dropSelf(ModBlocks.BISMUTH_WALL.get());
+        dropSelf(ModBlocks.BISMUTH_TRAPDOOR.get());
+
+        this.add(ModBlocks.BISMUTH_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BISMUTH_SLAB.get()));
+        this.add(ModBlocks.BISMUTH_DOOR.get(),
+                block -> createDoorTable(ModBlocks.BISMUTH_DOOR.get()));
+
         //GARNET
         dropSelf(ModBlocks.PINK_GARNET_BLOCK.get());
 

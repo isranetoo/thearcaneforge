@@ -63,6 +63,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.PINK_GARNET_WALL, ModBlocks.PINK_GARNET_BLOCK);
 
         simpleBlockItem(ModBlocks.PINK_GARNET_DOOR);
+
+        //BISMUTH
+        buttonItem(ModBlocks.BISMUTH_BUTTON, ModBlocks.BISMUTH_BLOCK);
+        fenceItem(ModBlocks.BISMUTH_FENCE, ModBlocks.BISMUTH_BLOCK);
+        wallItem(ModBlocks.BISMUTH_WALL, ModBlocks.BISMUTH_BLOCK);
+
+        simpleBlockItem(ModBlocks.BISMUTH_DOOR);
+
     }
 
     public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {

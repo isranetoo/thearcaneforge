@@ -96,9 +96,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_ORE.get());
                         output.accept(ModBlocks.BISMUTH_DEESLATE_ORE.get());
 
+                        //DECORATIVES
+
+                        output.accept(ModBlocks.BISMUTH_STAIRS.get());
+                        output.accept(ModBlocks.BISMUTH_SLAB.get());
+                        output.accept(ModBlocks.BISMUTH_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.BISMUTH_BUTTON.get());
+                        output.accept(ModBlocks.BISMUTH_FENCE.get());
+                        output.accept(ModBlocks.BISMUTH_FENCE_GATE.get());
+                        output.accept(ModBlocks.BISMUTH_WALL.get());
+                        output.accept(ModBlocks.BISMUTH_DOOR.get());
+                        output.accept(ModBlocks.BISMUTH_TRAPDOOR.get());
 
                     }).build());
-    
+
 
     public static final RegistryObject<CreativeModeTab> ARCANE_FOOD_TAB = CREATIVE_MODE_TABS.register("arcane_food_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KOHLRABI.get()))
