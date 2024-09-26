@@ -14,7 +14,7 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TheArcaneForge.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> ARCANE_TOOLS_TAB = CREATIVE_MODE_TABS.register("arcane_tools_tab",
+    public static final RegistryObject<CreativeModeTab> ARCANE_TOOLS_UTILS_TAB = CREATIVE_MODE_TABS.register("arcane_tools_utils_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModITools.ARCANE_CHISEL.get()))
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_tools_tab"))
                     .displayItems((itemDisplayParameters,output) -> {
@@ -22,11 +22,35 @@ public class ModCreativeModeTabs {
                         output.accept(ModITools.GARNET_CHISEL.get());
                         output.accept(ModITools.BISMUTH_CHISEL.get());
 
+                        //ARCANE
+                        output.accept(ModItems.ARCANE_PICKAXE.get());
+                        output.accept(ModItems.ARCANE_SHOVEL.get());
+                        output.accept(ModItems.ARCANE_AXE.get());
+                        output.accept(ModItems.ARCANE_HOE.get());
+
+
                     }).build());
+
+
+
+    public static final RegistryObject<CreativeModeTab> ARCANE_COMBAT_TAB = CREATIVE_MODE_TABS.register("arcane_combat_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ARCANE_SWORD.get()))
+                    .withTabsBefore(ARCANE_TOOLS_UTILS_TAB.getId())
+                    .title(Component.translatable("creativetab.thearcaneforge.arcane_combat_tab"))
+                    .displayItems((itemDisplayParameters,output) -> {
+
+                        //ARCANE
+
+                        output.accept(ModItems.ARCANE_SWORD.get());
+
+
+                    }).build());
+
 
 
     public static final RegistryObject<CreativeModeTab> ARCANE_ITEMS_TAB = CREATIVE_MODE_TABS.register("arcane_item_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ARCANE_GEMSTONE.get()))
+                    .withTabsBefore(ARCANE_COMBAT_TAB.getId())
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_gemstone_items"))
                     .displayItems((itemDisplayParameters,output) -> {
 
@@ -49,6 +73,8 @@ public class ModCreativeModeTabs {
 
                     }).build());
 
+
+
     public static final RegistryObject<CreativeModeTab> ARCANE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("arcane_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ARCANE_BLOCK.get()))
                     .withTabsBefore(ARCANE_ITEMS_TAB.getId())
@@ -61,8 +87,42 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ARCANE_ORE.get());
                         output.accept(ModBlocks.ARCANE_DEEPSLATE_ORE.get());
 
-                        //DECORATIVES
+                        //GARNET
+                        output.accept(ModBlocks.PINK_GARNET_BLOCK.get());
+                        output.accept(ModBlocks.RAW_PINK_GARNET_BLOCK.get());
+                        output.accept(ModBlocks.PINK_GARNET_ORE.get());
+                        output.accept(ModBlocks.PINK_GARNET_DEESLATE_ORE.get());
 
+                        //BISMUTH
+                        output.accept(ModBlocks.BISMUTH_BLOCK.get());
+                        output.accept(ModBlocks.BISMUTH_ORE.get());
+                        output.accept(ModBlocks.BISMUTH_DEESLATE_ORE.get());
+
+
+                    }).build());
+
+
+
+
+    public static final RegistryObject<CreativeModeTab> ARCANE_FOOD_TAB = CREATIVE_MODE_TABS.register("arcane_food_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KOHLRABI.get()))
+                    .withTabsBefore(ARCANE_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.thearcaneforge.arcane_food_tab"))
+                    .displayItems((itemDisplayParameters,output) -> {
+
+                        output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.RADISH.get());
+                        output.accept(ModItems.CAULIFLOWER.get());
+
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> ARCANE_DECORATIVES_TAB = CREATIVE_MODE_TABS.register("arcane_decoratives_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ARCANE_STAIRS.get()))
+                    .withTabsBefore(ARCANE_FOOD_TAB.getId())
+                    .title(Component.translatable("creativetab.thearcaneforge.arcane_decoratives_tab"))
+                    .displayItems((itemDisplayParameters,output) -> {
+
+                        //ARCANE
                         output.accept(ModBlocks.ARCANE_STAIRS.get());
                         output.accept(ModBlocks.ARCANE_SLAB.get());
                         output.accept(ModBlocks.ARCANE_PRESSURE_PLATE.get());
@@ -74,13 +134,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ARCANE_TRAPDOOR.get());
 
                         //GARNET
-                        output.accept(ModBlocks.PINK_GARNET_BLOCK.get());
-                        output.accept(ModBlocks.RAW_PINK_GARNET_BLOCK.get());
-                        output.accept(ModBlocks.PINK_GARNET_ORE.get());
-                        output.accept(ModBlocks.PINK_GARNET_DEESLATE_ORE.get());
-
-                        //DECONATIVES
-
                         output.accept(ModBlocks.PINK_GARNET_STAIRS.get());
                         output.accept(ModBlocks.PINK_GARNET_SLAB.get());
                         output.accept(ModBlocks.PINK_GARNET_PRESSURE_PLATE.get());
@@ -92,12 +145,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PINK_GARNET_TRAPDOOR.get());
 
                         //BISMUTH
-                        output.accept(ModBlocks.BISMUTH_BLOCK.get());
-                        output.accept(ModBlocks.BISMUTH_ORE.get());
-                        output.accept(ModBlocks.BISMUTH_DEESLATE_ORE.get());
-
-                        //DECORATIVES
-
                         output.accept(ModBlocks.BISMUTH_STAIRS.get());
                         output.accept(ModBlocks.BISMUTH_SLAB.get());
                         output.accept(ModBlocks.BISMUTH_PRESSURE_PLATE.get());
@@ -108,17 +155,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_DOOR.get());
                         output.accept(ModBlocks.BISMUTH_TRAPDOOR.get());
 
-                    }).build());
-
-
-    public static final RegistryObject<CreativeModeTab> ARCANE_FOOD_TAB = CREATIVE_MODE_TABS.register("arcane_food_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KOHLRABI.get()))
-                    .title(Component.translatable("creativetab.thearcaneforge.arcane_food_tab"))
-                    .displayItems((itemDisplayParameters,output) -> {
-
-                        output.accept(ModItems.KOHLRABI.get());
-                        output.accept(ModItems.RADISH.get());
-                        output.accept(ModItems.CAULIFLOWER.get());
 
                     }).build());
 

@@ -1,7 +1,9 @@
-// 1.21	2024-09-25T00:23:42.7429326	Tags for minecraft:block mod id thearcaneforge
+// 1.21	2024-09-25T15:02:12.2386225	Tags for minecraft:block mod id thearcaneforge
 5f15e327851df3ec9a3202b40df6c132a53f04c4 data/minecraft/tags/block/fences.json
 925c16331b029622215524b43680011c76b97d37 data/minecraft/tags/block/fence_gates.json
 ce3161f11eb003a7cbc97f40a74044cd27b315b5 data/minecraft/tags/block/mineable/pickaxe.json
 7155f23e945a4b86932d28cd4d73fa8cb1bc18a8 data/minecraft/tags/block/needs_diamond_tool.json
 a00e0ec19b91aac0b9808902f8a219b85186ed14 data/minecraft/tags/block/needs_iron_tool.json
 c98e30c5c66b63e581e455c9d7a65e505eb213b3 data/minecraft/tags/block/walls.json
+ea2a899f68d49076dd639c881ac9155e22ab7b48 data/thearcaneforge/tags/block/incorrect_for_arcane_tool.json
+4fd1f7580f662fd30170a563210c5c3ce2c84d9a data/thearcaneforge/tags/block/needs_arcane_tool.json

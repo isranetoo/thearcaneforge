@@ -2,9 +2,7 @@ package net.thearcaneforge.mod.item;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,6 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
 import net.thearcaneforge.mod.item.custom.ArcaneChiselItem;
 import net.thearcaneforge.mod.item.custom.FueItem;
+import net.thearcaneforge.mod.item.custom.ModToolTiers;
 
 import java.util.List;
 
@@ -25,6 +24,29 @@ public class ModItems {
 
     public  static final RegistryObject<Item> RAW_ARCANE_ORE = ITEMS.register("raw_arcane_ore",
             () -> new Item(new Item.Properties()));
+
+    //TOOLS
+    public static final RegistryObject<Item> ARCANE_SWORD = ITEMS.register("arcane_sword",
+            () -> new SwordItem(ModToolTiers.ARCANE,new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ARCANE,3,-2.4f))));
+
+    public static final RegistryObject<Item> ARCANE_PICKAXE = ITEMS.register("arcane_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ARCANE,new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ARCANE,1,-2.8f))));
+
+    public static final RegistryObject<Item> ARCANE_SHOVEL = ITEMS.register("arcane_shovel",
+            () -> new ShovelItem(ModToolTiers.ARCANE,new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.ARCANE,1.5f,-3.0f))));
+
+    public static final RegistryObject<Item> ARCANE_AXE = ITEMS.register("arcane_axe",
+            () -> new AxeItem(ModToolTiers.ARCANE,new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.ARCANE,6,-3.2f))));
+
+
+    public static final RegistryObject<Item> ARCANE_HOE = ITEMS.register("arcane_hoe",
+            () -> new HoeItem(ModToolTiers.ARCANE,new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.ARCANE,0,-3.0f))));
+
 
     //GARNET
     public  static final RegistryObject<Item> PINK_GARNET = ITEMS.register("pink_garnet",

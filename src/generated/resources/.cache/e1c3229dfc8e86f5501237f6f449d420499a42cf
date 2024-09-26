@@ -1,10 +1,15 @@
-// 1.21	2024-09-25T00:23:42.744936	Item Models: thearcaneforge
+// 1.21	2024-09-25T15:02:12.242622	Item Models: thearcaneforge
 e781e9a09fda9d403313ee81d4089bbaa73fbef2 assets/thearcaneforge/models/item/arcane_ashes.json
+5748fa5c9a8418a6e31d1611a81186e3f7b660d3 assets/thearcaneforge/models/item/arcane_axe.json
 6378867542d5f20f638fe672ab53ffb9cc41147b assets/thearcaneforge/models/item/arcane_button.json
 89252fff301f273cdd3b2bead1758329fa753da6 assets/thearcaneforge/models/item/arcane_chisel.json
 d23f5939265eec6ab61a5635cf93414954af3c6f assets/thearcaneforge/models/item/arcane_door.json
 e63f2a531bf54ca3d7d68859ff5d7f4e89a70539 assets/thearcaneforge/models/item/arcane_fence.json
 d07baeb6bd1ccd68dc219a05287558305b4d18da assets/thearcaneforge/models/item/arcane_gemstone.json
+32135458c904e95d61c4213604223c94e038f1c5 assets/thearcaneforge/models/item/arcane_hoe.json
+44c0be5d2be2e842ba68fa45c38f345b9a0afdf1 assets/thearcaneforge/models/item/arcane_pickaxe.json
+25ef267da55a6bd3a276f8e281949c4de0dcbcab assets/thearcaneforge/models/item/arcane_shovel.json
+31a9aaea870bd57bf64ada0ee291a5b31256c0ce assets/thearcaneforge/models/item/arcane_sword.json
 a00d89baa345e9a67535f99845d808224a598585 assets/thearcaneforge/models/item/arcane_wall.json
 aa66edd225c39d2869f68dba89d0aa532abd4741 assets/thearcaneforge/models/item/bismuth_button.json
 cdbca6d56903737e74659554f07ee76722116f8e assets/thearcaneforge/models/item/bismuth_chisel.json

@@ -61,6 +61,17 @@ public class TheArcaneForge
             event.accept(ModITools.ARCANE_CHISEL);
             event.accept(ModITools.GARNET_CHISEL);
             event.accept(ModITools.BISMUTH_CHISEL);
+
+            event.accept(ModItems.ARCANE_PICKAXE);
+            event.accept(ModItems.ARCANE_AXE);
+            event.accept(ModItems.ARCANE_SHOVEL);
+            event.accept(ModItems.ARCANE_HOE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.COMBAT){
+
+            event.accept(ModItems.ARCANE_SWORD);
+
         }
 
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){

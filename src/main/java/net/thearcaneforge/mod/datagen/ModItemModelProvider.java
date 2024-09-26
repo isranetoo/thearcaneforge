@@ -1,5 +1,6 @@
 package net.thearcaneforge.mod.datagen;
 
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -71,6 +72,19 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.BISMUTH_DOOR);
 
+        //TOOLS
+        handheldItem(ModItems.ARCANE_SWORD);
+        handheldItem(ModItems.ARCANE_PICKAXE);
+        handheldItem(ModItems.ARCANE_SHOVEL);
+        handheldItem(ModItems.ARCANE_AXE);
+        handheldItem(ModItems.ARCANE_HOE);
+
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(TheArcaneForge.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {

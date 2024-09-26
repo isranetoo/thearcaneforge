@@ -3,10 +3,13 @@ package net.thearcaneforge.mod.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.thearcaneforge.mod.TheArcaneForge;
 import net.thearcaneforge.mod.block.ModBlocks;
+import net.thearcaneforge.mod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -68,6 +71,18 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
         tag(BlockTags.FENCES).add(ModBlocks.BISMUTH_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.BISMUTH_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.BISMUTH_WALL.get());
+
+        //TOOLS
+
+        //ARCANE
+        tag(ModTags.Blocks.NEEDS_ARCANE_TOOL)
+                .add(ModBlocks.RAW_ARCANE_BLOCK.get())
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(Blocks.OBSIDIAN);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_ARCANE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_ARCANE_TOOL);
 
     }
 }

@@ -1,4 +1,11 @@
 {
+  "creativetab.thearcaneforge.arcane_tools_utils_tab": "The Arcane Tools & Utilities",
+  "creativetab.thearcaneforge.arcane_combat_tab": "The Arcane Combat",
+  "creativetab.thearcaneforge.arcane_gemstone_items": "The Arcane Items",
+  "creativetab.thearcaneforge.arcane_gemstone_blocks": "The Arcane Blocks",
+  "creativetab.thearcaneforge.arcane_food_tab": "The Arcane Food",
+  "creativetab.thearcaneforge.arcane_decoratives_tab": "The Arcane Decoratives",
+
   "item.thearcaneforge.arcane_gemstone": "Arcane Gemstone",
   "item.thearcaneforge.raw_arcane_ore": "Raw Arcane Ore",
   "item.thearcaneforge.pink_garnet": "Pink Garnet",
@@ -13,6 +20,12 @@
   "item.thearcaneforge.arcane_ashes": "Arcane Ashes",
   "item.thearcaneforge.garnet_ashes": "Garnet Ashes",
   "item.thearcaneforge.frostfire_ice": "Frost Fire Ice",
+
+  "item.thearcaneforge.arcane_sword": "Arcane Sword",
+  "item.thearcaneforge.arcane_pickaxe": "Arcane Pickaxe",
+  "item.thearcaneforge.arcane_shovel": "Arcane Shovel",
+  "item.thearcaneforge.arcane_axe": "Arcane Axe",
+  "item.thearcaneforge.arcane_hoe": "Arcane Hoe",
 
   "item.thearcaneforge.arcane_chisel": "The Arcane Chisel",
   "item.thearcaneforge.garnet_chisel": "The Garnet Chisel",
@@ -49,11 +62,6 @@
   "block.thearcaneforge.pink_garnet_wall": "Garnet Wall",
   "block.thearcaneforge.pink_garnet_door": "Garnet Door",
   "block.thearcaneforge.pink_garnet_trapdoor": "Garnet Trapdoor",
-
-  "creativetab.thearcaneforge.arcane_tools_tab": "The Arcane Tools",
-  "creativetab.thearcaneforge.arcane_gemstone_items": "The Arcane Items",
-  "creativetab.thearcaneforge.arcane_gemstone_blocks": "The Arcane Blocks",
-  "creativetab.thearcaneforge.arcane_food_tab": "The Arcane Food",
 
   "tooltip.thearcaneforge.arcane_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
   "tooltip.thearcaneforge.arcane_chisel": "Press §eShift§r for more Information !",
