@@ -3,6 +3,7 @@ package net.thearcaneforge.mod.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -59,6 +60,162 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
         trapdoorBuilder(ModBlocks.ARCANE_TRAPDOOR.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
                 .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
+
+        //TOOLS & COMBAT
+
+        // ARCANE SWORD
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // ARCANE PICKAXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // ARCANE AXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_AXE.get())
+                .pattern("AA ")
+                .pattern("AS ")
+                .pattern(" S ")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // ARCANE SHOVEL
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // ARCANE HOE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_HOE.get())
+                .pattern("AA ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+
+        // PINK GARNET SWORD
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .define('A', ModItems.PINK_GARNET.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // PINK GARNET PICKAXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.PINK_GARNET.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // PINK GARNET AXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_AXE.get())
+                .pattern("AA ")
+                .pattern("AS ")
+                .pattern(" S ")
+                .define('A', ModItems.PINK_GARNET.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // PINK GARNET SHOVEL
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.PINK_GARNET.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // PINK GARNET HOE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_HOE.get())
+                .pattern("AA ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.PINK_GARNET.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+
+        // BISMUTH SWORD Recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH PICKAXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH AXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_AXE.get())
+                .pattern("AA ")
+                .pattern("AS ")
+                .pattern(" S ")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH SHOVEL
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH HOE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_HOE.get())
+                .pattern("AA ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+
 
         //GARNET
 

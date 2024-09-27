@@ -73,12 +73,28 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.BISMUTH_DOOR);
 
         //TOOLS
+
+        //ARCANE
         handheldItem(ModItems.ARCANE_SWORD);
         handheldItem(ModItems.ARCANE_PICKAXE);
         handheldItem(ModItems.ARCANE_SHOVEL);
         handheldItem(ModItems.ARCANE_AXE);
         handheldItem(ModItems.ARCANE_HOE);
 
+        //GARNET
+        handheldItem(ModItems.PINK_GARNET_SWORD);
+        handheldItem(ModItems.PINK_GARNET_PICKAXE);
+        handheldItem(ModItems.PINK_GARNET_SHOVEL);
+        handheldItem(ModItems.PINK_GARNET_AXE);
+        handheldItem(ModItems.PINK_GARNET_HOE);
+
+        //BISMUTH
+
+        handheldItem(ModItems.BISMUTH_SWORD);
+        handheldItem(ModItems.BISMUTH_PICKAXE);
+        handheldItem(ModItems.BISMUTH_SHOVEL);
+        handheldItem(ModItems.BISMUTH_AXE);
+        handheldItem(ModItems.BISMUTH_HOE);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

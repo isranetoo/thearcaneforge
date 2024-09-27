@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "thearcaneforge:bismuth_gemstone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    " A ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:bismuth_sword"
+  }
+}

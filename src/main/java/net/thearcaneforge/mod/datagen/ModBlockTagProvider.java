@@ -84,5 +84,15 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(ModTags.Blocks.NEEDS_ARCANE_TOOL);
 
+        //GARNET
+        tag(ModTags.Blocks.NEEDS_GARNET_TOOL)
+                .add(ModBlocks.RAW_PINK_GARNET_BLOCK.get())
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(Blocks.OBSIDIAN);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_GARNET_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_GARNET_TOOL);
+
     }
 }

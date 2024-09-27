@@ -55,12 +55,57 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_PINK_GARNET = ITEMS.register("raw_pink_garnet",
             () -> new Item(new Item.Properties()));
 
+    //TOOLS
+
+    public static final RegistryObject<Item> PINK_GARNET_SWORD = ITEMS.register("pink_garnet_sword",
+            () -> new SwordItem(ModToolTiers.PINK_GARNET,new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.PINK_GARNET,3,-2.4f))));
+
+    public static final RegistryObject<Item> PINK_GARNET_PICKAXE = ITEMS.register("pink_garnet_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.PINK_GARNET,new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.PINK_GARNET,1,-2.8f))));
+
+    public static final RegistryObject<Item> PINK_GARNET_SHOVEL = ITEMS.register("pink_garnet_shovel",
+            () -> new ShovelItem(ModToolTiers.PINK_GARNET,new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.PINK_GARNET,1.5f,-3.0f))));
+
+    public static final RegistryObject<Item> PINK_GARNET_AXE = ITEMS.register("pink_garnet_axe",
+            () -> new AxeItem(ModToolTiers.PINK_GARNET,new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.PINK_GARNET,6,-3.2f))));
+
+    public static final RegistryObject<Item> PINK_GARNET_HOE = ITEMS.register("pink_garnet_hoe",
+            () -> new HoeItem(ModToolTiers.PINK_GARNET,new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.PINK_GARNET,0,-3.0f))));
+
+
     //BISMUTH
     public static final RegistryObject<Item> BISMUTH_GEMSTONE = ITEMS.register("bismuth_gemstone",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_BISMUTH = ITEMS.register("raw_bismuth",
             () -> new Item(new Item.Properties()));
+
+    //TOOLS
+
+    public static final RegistryObject<Item> BISMUTH_SWORD = ITEMS.register("bismuth_sword",
+            () -> new SwordItem(ModToolTiers.BISMUTH,new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.BISMUTH,3,-2.4f))));
+
+    public static final RegistryObject<Item> BISMUTH_PICKAXE = ITEMS.register("bismuth_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.BISMUTH,new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH,1,-2.8f))));
+
+    public static final RegistryObject<Item> BISMUTH_SHOVEL = ITEMS.register("bismuth_shovel",
+            () -> new ShovelItem(ModToolTiers.BISMUTH,new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.BISMUTH,1.5f,-3.0f))));
+
+    public static final RegistryObject<Item> BISMUTH_AXE = ITEMS.register("bismuth_axe",
+            () -> new AxeItem(ModToolTiers.BISMUTH,new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.BISMUTH,6,-3.2f))));
+
+    public static final RegistryObject<Item> BISMUTH_HOE = ITEMS.register("bismuth_hoe",
+            () -> new HoeItem(ModToolTiers.BISMUTH,new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.BISMUTH,0,-3.0f))));
 
     //FOOD
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",

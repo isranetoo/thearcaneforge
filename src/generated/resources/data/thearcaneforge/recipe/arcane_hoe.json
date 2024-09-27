@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "thearcaneforge:arcane_gemstone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "AA ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:arcane_hoe"
+  }
+}

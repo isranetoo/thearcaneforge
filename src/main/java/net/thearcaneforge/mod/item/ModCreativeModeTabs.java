@@ -28,6 +28,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ARCANE_AXE.get());
                         output.accept(ModItems.ARCANE_HOE.get());
 
+                        //GARNET
+                        output.accept(ModItems.PINK_GARNET_PICKAXE.get());
+                        output.accept(ModItems.PINK_GARNET_SHOVEL.get());
+                        output.accept(ModItems.PINK_GARNET_AXE.get());
+                        output.accept(ModItems.PINK_GARNET_HOE.get());
+
+                        //BISMUTH
+                        output.accept(ModItems.BISMUTH_PICKAXE.get());
+                        output.accept(ModItems.BISMUTH_SHOVEL.get());
+                        output.accept(ModItems.BISMUTH_AXE.get());
+                        output.accept(ModItems.BISMUTH_HOE.get());
+
 
                     }).build());
 
@@ -40,8 +52,11 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters,output) -> {
 
                         //ARCANE
-
                         output.accept(ModItems.ARCANE_SWORD.get());
+                        //GARNET
+                        output.accept(ModItems.PINK_GARNET_SWORD.get());
+                        //BISMUTH
+                        output.accept(ModItems.BISMUTH_SWORD.get());
 
 
                     }).build());
