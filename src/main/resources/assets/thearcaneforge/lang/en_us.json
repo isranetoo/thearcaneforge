@@ -47,10 +47,12 @@
   "block.thearcaneforge.raw_arcane_block": "Raw Arcane Block",
   "block.thearcaneforge.arcane_ore": "Arcane Ore",
   "block.thearcaneforge.arcane_deepslate_ore": "Arcane Deepslate Ore",
+
   "block.thearcaneforge.pink_garnet_block": "Pink Garnet Block",
   "block.thearcaneforge.raw_pink_garnet_block": "Raw Pink Garnet Block",
   "block.thearcaneforge.pink_garnet_ore": "Garnet Ore",
   "block.thearcaneforge.pink_garnet_deepslate_ore": "Garnet Deepslate Ore",
+
   "block.thearcaneforge.bismuth_block": "Bismuth Block",
   "block.thearcaneforge.bismuth_ore": "Bismuth Ore",
   "block.thearcaneforge.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
@@ -64,6 +66,8 @@
   "block.thearcaneforge.arcane_wall": "Arcane Wall",
   "block.thearcaneforge.arcane_door": "Arcane Door",
   "block.thearcaneforge.arcane_trapdoor": "Arcane Trapdoor",
+  "block.thearcaneforge.arcane_lamp": "Arcane Lamp",
+
 
   "block.thearcaneforge.pink_garnet_stairs": "Garnet Stairs",
   "block.thearcaneforge.pink_garnet_slab": "Garnet Slab",
@@ -74,6 +78,18 @@
   "block.thearcaneforge.pink_garnet_wall": "Garnet Wall",
   "block.thearcaneforge.pink_garnet_door": "Garnet Door",
   "block.thearcaneforge.pink_garnet_trapdoor": "Garnet Trapdoor",
+  "block.thearcaneforge.pink_garnet_lamp": "Garnet Lamp",
+
+  "block.thearcaneforge.bismuth_stairs": "Garnet Stairs",
+  "block.thearcaneforge.bismuth_slab": "Garnet Slab",
+  "block.thearcaneforge.bismuth_pressure_plate": "Garnet Pressure Plate",
+  "block.thearcaneforge.bismuth_button": "Garnet Button",
+  "block.thearcaneforge.bismuth_fence": "Garnet Fence",
+  "block.thearcaneforge.bismuth_fence_gate": "Garnet Fence Gate",
+  "block.thearcaneforge.bismuth_wall": "Garnet Wall",
+  "block.thearcaneforge.bismuth_door": "Garnet Door",
+  "block.thearcaneforge.bismuth_trapdoor": "Garnet Trapdoor",
+  "block.thearcaneforge.bismuth_lamp": "Bismuth Lamp",
 
   "tooltip.thearcaneforge.arcane_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
   "tooltip.thearcaneforge.arcane_chisel": "Press §eShift§r for more Information !",

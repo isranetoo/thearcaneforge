@@ -109,6 +109,16 @@ public class TheArcaneForge
             event.accept(ModItems.FROSTFIRE_ICE);
         }
 
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
+
+            //ARCANE
+            event.accept(ModBlocks.ARCANE_LAMP);
+            //GARNET
+            event.accept(ModBlocks.PINK_GARNET_LAMP);
+            //BISMUTH
+            event.accept(ModBlocks.BISMUTH_LAMP);
+        }
+
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
 
             event.accept(ModBlocks.ARCANE_BLOCK);

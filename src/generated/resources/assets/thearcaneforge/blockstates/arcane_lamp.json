@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "thearcaneforge:block/arcane_lamp_off"
+    },
+    "clicked=true": {
+      "model": "thearcaneforge:block/arcane_lamp_on"
+    }
+  }
+}

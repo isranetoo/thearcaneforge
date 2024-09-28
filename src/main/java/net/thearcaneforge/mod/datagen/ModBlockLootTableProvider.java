@@ -34,6 +34,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         //ARCANE
         dropSelf(ModBlocks.ARCANE_BLOCK.get());
+        dropSelf(ModBlocks.ARCANE_LAMP.get());
 
         //DECORATIVES ARCANE
 
@@ -82,9 +83,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         //GARNET
         dropSelf(ModBlocks.PINK_GARNET_BLOCK.get());
+        dropSelf(ModBlocks.PINK_GARNET_LAMP.get());
 
         //BISMUTH
         dropSelf(ModBlocks.BISMUTH_BLOCK.get());
+        dropSelf(ModBlocks.BISMUTH_LAMP.get());
 
 
         // --ORES-- //

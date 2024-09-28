@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "thearcaneforge:bismuth_gemstone"
+    },
+    "L": {
+      "item": "thearcaneforge:bismuth_block"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GLG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:bismuth_lamp"
+  }
+}

@@ -147,6 +147,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ARCANE_WALL.get());
                         output.accept(ModBlocks.ARCANE_DOOR.get());
                         output.accept(ModBlocks.ARCANE_TRAPDOOR.get());
+                        output.accept(ModBlocks.ARCANE_LAMP.get());
 
                         //GARNET
                         output.accept(ModBlocks.PINK_GARNET_STAIRS.get());
@@ -158,6 +159,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PINK_GARNET_WALL.get());
                         output.accept(ModBlocks.PINK_GARNET_DOOR.get());
                         output.accept(ModBlocks.PINK_GARNET_TRAPDOOR.get());
+                        output.accept(ModBlocks.PINK_GARNET_LAMP.get());
 
                         //BISMUTH
                         output.accept(ModBlocks.BISMUTH_STAIRS.get());
@@ -169,6 +171,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_WALL.get());
                         output.accept(ModBlocks.BISMUTH_DOOR.get());
                         output.accept(ModBlocks.BISMUTH_TRAPDOOR.get());
+                        output.accept(ModBlocks.BISMUTH_LAMP.get());
 
 
                     }).build());

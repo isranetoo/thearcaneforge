@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "thearcaneforge:arcane_gemstone"
+    },
+    "L": {
+      "item": "thearcaneforge:arcane_block"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GLG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:arcane_lamp"
+  }
+}

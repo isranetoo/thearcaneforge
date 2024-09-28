@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
+import net.thearcaneforge.mod.block.custom.ModLampsBlock;
 import net.thearcaneforge.mod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -39,6 +40,11 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    //LAMP
+    public static final RegistryObject<Block> ARCANE_LAMP = registerBlock("arcane_lamp",
+            () -> new ModLampsBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(ModLampsBlock.CLICKED) ? 15 : 0)));
+
     //GARNET
 
     public static final RegistryObject<Block> PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
@@ -57,6 +63,11 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    //LAMP
+    public static final RegistryObject<Block> PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
+            () -> new ModLampsBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(ModLampsBlock.CLICKED) ? 15 : 0)));
+
     //BISMUTH
     public static final RegistryObject<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -69,6 +80,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> BISMUTH_DEESLATE_ORE = registerBlock("bismuth_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    //LAMP
+    public static final RegistryObject<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
+            () -> new ModLampsBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(ModLampsBlock.CLICKED) ? 15 : 0)));
 
 
         //NON BLOCKS

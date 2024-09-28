@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "thearcaneforge:pink_garnet"
+    },
+    "L": {
+      "item": "thearcaneforge:pink_garnet_block"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GLG",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:pink_garnet_lamp"
+  }
+}

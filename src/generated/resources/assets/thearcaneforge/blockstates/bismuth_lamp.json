@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "thearcaneforge:block/bismuth_lamp_off"
+    },
+    "clicked=true": {
+      "model": "thearcaneforge:block/bismuth_lamp_on"
+    }
+  }
+}

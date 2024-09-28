@@ -1,14 +1,17 @@
 package net.thearcaneforge.mod.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
 import net.thearcaneforge.mod.block.ModBlocks;
+import net.thearcaneforge.mod.block.custom.ModLampsBlock;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -23,6 +26,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_ARCANE_BLOCK);
         blockWithItem(ModBlocks.ARCANE_ORE);
         blockWithItem(ModBlocks.ARCANE_DEEPSLATE_ORE);
+
+        //LAMP
+        customLamp(ModBlocks.ARCANE_LAMP, "arcane_lamp_on", "arcane_lamp_off");
+        customLamp(ModBlocks.PINK_GARNET_LAMP, "pink_garnet_lamp_on", "pink_garnet_lamp_off");
+        customLamp(ModBlocks.BISMUTH_LAMP, "bismuth_lamp_on", "bismuth_lamp_off");
 
         //DECORATIVES
         stairsBlock(ModBlocks.ARCANE_STAIRS.get(), blockTexture(ModBlocks.ARCANE_BLOCK.get()));
@@ -99,6 +107,25 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 
     }
+
+    //LAMPS
+    private void customLamp(RegistryObject<Block> lampBlock, String lampOnTexture, String lampOffTexture) {
+        ResourceLocation onTextureLocation = modLoc("block/" + lampOnTexture);
+        ResourceLocation offTextureLocation = modLoc("block/" + lampOffTexture);
+
+        getVariantBuilder(lampBlock.get()).forAllStates(state -> {
+            if (state.getValue(ModLampsBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(lampOnTexture, onTextureLocation))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll(lampOffTexture, offTextureLocation))};
+            }
+        });
+
+        simpleBlockItem(lampBlock.get(), models().cubeAll(lampOnTexture, onTextureLocation));
+    }
+
+
+
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
