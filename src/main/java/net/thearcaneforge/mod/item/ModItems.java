@@ -1,15 +1,14 @@
 package net.thearcaneforge.mod.item;
 
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
-import net.thearcaneforge.mod.item.custom.ArcaneChiselItem;
 import net.thearcaneforge.mod.item.custom.FueItem;
+import net.thearcaneforge.mod.item.custom.HammerItem;
 import net.thearcaneforge.mod.item.custom.ModToolTiers;
 
 import java.util.List;
@@ -42,10 +41,13 @@ public class ModItems {
             () -> new AxeItem(ModToolTiers.ARCANE,new Item.Properties()
                     .attributes(AxeItem.createAttributes(ModToolTiers.ARCANE,6,-3.2f))));
 
-
     public static final RegistryObject<Item> ARCANE_HOE = ITEMS.register("arcane_hoe",
             () -> new HoeItem(ModToolTiers.ARCANE,new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ARCANE,0,-3.0f))));
+    //HAMMER
+    public static final RegistryObject<Item> ARCANE_HAMMER = ITEMS.register("arcane_hammer",
+            () -> new HammerItem(ModToolTiers.ARCANE,new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ARCANE,8,-3.7f))));
 
 
     //GARNET
@@ -77,6 +79,11 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.PINK_GARNET,new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.PINK_GARNET,0,-3.0f))));
 
+    //HAMMER
+    public static final RegistryObject<Item> PINK_GARNET_HAMMER = ITEMS.register("pink_garnet_hammer",
+            () -> new HammerItem(ModToolTiers.PINK_GARNET,new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.PINK_GARNET,8,-3.7f))));
+
 
     //BISMUTH
     public static final RegistryObject<Item> BISMUTH_GEMSTONE = ITEMS.register("bismuth_gemstone",
@@ -106,6 +113,11 @@ public class ModItems {
     public static final RegistryObject<Item> BISMUTH_HOE = ITEMS.register("bismuth_hoe",
             () -> new HoeItem(ModToolTiers.BISMUTH,new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.BISMUTH,0,-3.0f))));
+
+    //HAMMER
+    public static final RegistryObject<Item> BISMUTH_HAMMER = ITEMS.register("bismuth_hammer",
+            () -> new HammerItem(ModToolTiers.BISMUTH,new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH,8,-3.7f))));
 
     //FOOD
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",

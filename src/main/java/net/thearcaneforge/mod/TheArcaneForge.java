@@ -66,16 +66,19 @@ public class TheArcaneForge
             event.accept(ModItems.ARCANE_AXE);
             event.accept(ModItems.ARCANE_SHOVEL);
             event.accept(ModItems.ARCANE_HOE);
+            event.accept(ModItems.ARCANE_HAMMER);
 
             event.accept(ModItems.PINK_GARNET_PICKAXE);
             event.accept(ModItems.PINK_GARNET_AXE);
             event.accept(ModItems.PINK_GARNET_SHOVEL);
             event.accept(ModItems.PINK_GARNET_HOE);
+            event.accept(ModItems.PINK_GARNET_HAMMER);
 
             event.accept(ModItems.BISMUTH_PICKAXE);
             event.accept(ModItems.BISMUTH_AXE);
             event.accept(ModItems.BISMUTH_SHOVEL);
             event.accept(ModItems.BISMUTH_HOE);
+            event.accept(ModItems.BISMUTH_HAMMER);
         }
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT){

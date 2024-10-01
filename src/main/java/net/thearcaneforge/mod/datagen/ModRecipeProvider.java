@@ -92,6 +92,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
                 .save(pRecipeOutput);
 
+        // ARCANE HAMMER
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.ARCANE_HAMMER.get())
+                .pattern("AAA")
+                .pattern("ASA")
+                .pattern(" S ")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
         //DECORATIVES
         stairBuilder(ModBlocks.ARCANE_STAIRS.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
                 .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
@@ -191,6 +201,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
                 .save(pRecipeOutput);
 
+        // PINK GARNET HAMMER
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_HAMMER.get())
+                .pattern("AAA")
+                .pattern("ASA")
+                .pattern(" S ")
+                .define('A', ModItems.PINK_GARNET.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+
+
         //DECORATIVES
 
         stairBuilder(ModBlocks.PINK_GARNET_STAIRS.get(), Ingredient.of(ModItems.PINK_GARNET.get())).group("pink_garnet")
@@ -286,6 +308,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_HOE.get())
                 .pattern("AA ")
                 .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH HAMMER
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_HAMMER.get())
+                .pattern("AAA")
+                .pattern("ASA")
                 .pattern(" S ")
                 .define('A', ModItems.BISMUTH_GEMSTONE.get())
                 .define('S', Items.STICK)

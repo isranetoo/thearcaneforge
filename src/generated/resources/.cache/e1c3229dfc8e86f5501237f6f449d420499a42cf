@@ -1,4 +1,4 @@
-// 1.21	2024-09-26T16:22:42.7626899	Item Models: thearcaneforge
+// 1.21	2024-09-30T00:32:29.0914635	Item Models: thearcaneforge
 e781e9a09fda9d403313ee81d4089bbaa73fbef2 assets/thearcaneforge/models/item/arcane_ashes.json
 5748fa5c9a8418a6e31d1611a81186e3f7b660d3 assets/thearcaneforge/models/item/arcane_axe.json
 6378867542d5f20f638fe672ab53ffb9cc41147b assets/thearcaneforge/models/item/arcane_button.json
@@ -6,6 +6,7 @@ e781e9a09fda9d403313ee81d4089bbaa73fbef2 assets/thearcaneforge/models/item/arcan
 d23f5939265eec6ab61a5635cf93414954af3c6f assets/thearcaneforge/models/item/arcane_door.json
 e63f2a531bf54ca3d7d68859ff5d7f4e89a70539 assets/thearcaneforge/models/item/arcane_fence.json
 d07baeb6bd1ccd68dc219a05287558305b4d18da assets/thearcaneforge/models/item/arcane_gemstone.json
+2ad520d8476cebc3b44e06f264a3acb698ece290 assets/thearcaneforge/models/item/arcane_hammer.json
 32135458c904e95d61c4213604223c94e038f1c5 assets/thearcaneforge/models/item/arcane_hoe.json
 44c0be5d2be2e842ba68fa45c38f345b9a0afdf1 assets/thearcaneforge/models/item/arcane_pickaxe.json
 25ef267da55a6bd3a276f8e281949c4de0dcbcab assets/thearcaneforge/models/item/arcane_shovel.json
@@ -17,6 +18,7 @@ cdbca6d56903737e74659554f07ee76722116f8e assets/thearcaneforge/models/item/bismu
 d054073d344a560c228eb88056a1381222dc5178 assets/thearcaneforge/models/item/bismuth_door.json
 0a5ef8aa498c64cc318d544e965d9cd67d2bc2ba assets/thearcaneforge/models/item/bismuth_fence.json
 1043884dcf90f2b2352b75f234af0457f96f3cef assets/thearcaneforge/models/item/bismuth_gemstone.json
+ca457924dc0d257bc769a22f8739fa0753a3a090 assets/thearcaneforge/models/item/bismuth_hammer.json
 ed3779736c3427997e24c8c0015de1c54ffd3052 assets/thearcaneforge/models/item/bismuth_hoe.json
 18141afd9cbc0925c3c905c63b03fa381f2ac1f9 assets/thearcaneforge/models/item/bismuth_pickaxe.json
 688240f92ce9e4aa0a366d9c8b378628533a4727 assets/thearcaneforge/models/item/bismuth_shovel.json
@@ -32,6 +34,7 @@ fce53f540fb09bc1ea5fd06e3c1c7a15dd60be77 assets/thearcaneforge/models/item/pink_
 59b413d4555a66d203300e6bf1bc84b03816d5e2 assets/thearcaneforge/models/item/pink_garnet_button.json
 f45ce80d9716628f4e9e4946e37c080d1558f65c assets/thearcaneforge/models/item/pink_garnet_door.json
 af5d55364da17dda3382be08dfe4a567c31ddaf4 assets/thearcaneforge/models/item/pink_garnet_fence.json
+1c506923c04de127ca443596d913a8fc0fadf73e assets/thearcaneforge/models/item/pink_garnet_hammer.json
 141399b4214b60565c0a18f5e667b9d313b3574f assets/thearcaneforge/models/item/pink_garnet_hoe.json
 6be3a9bba24e2dbe4fd724a0b47b3f5d2a91fe31 assets/thearcaneforge/models/item/pink_garnet_pickaxe.json
 33c2037631df80cfbe3b5c187a9acb90a6811038 assets/thearcaneforge/models/item/pink_garnet_shovel.json

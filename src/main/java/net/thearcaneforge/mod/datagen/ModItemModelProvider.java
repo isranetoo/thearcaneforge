@@ -80,6 +80,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ARCANE_SHOVEL);
         handheldItem(ModItems.ARCANE_AXE);
         handheldItem(ModItems.ARCANE_HOE);
+        handheldItem(ModItems.ARCANE_HAMMER);
 
         //GARNET
         handheldItem(ModItems.PINK_GARNET_SWORD);
@@ -87,6 +88,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.PINK_GARNET_SHOVEL);
         handheldItem(ModItems.PINK_GARNET_AXE);
         handheldItem(ModItems.PINK_GARNET_HOE);
+        handheldItem(ModItems.PINK_GARNET_HAMMER);
 
         //BISMUTH
 
@@ -95,6 +97,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.BISMUTH_SHOVEL);
         handheldItem(ModItems.BISMUTH_AXE);
         handheldItem(ModItems.BISMUTH_HOE);
+        handheldItem(ModItems.BISMUTH_HAMMER);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

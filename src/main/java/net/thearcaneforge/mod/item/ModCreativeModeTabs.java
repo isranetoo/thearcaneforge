@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> ARCANE_TOOLS_UTILS_TAB = CREATIVE_MODE_TABS.register("arcane_tools_utils_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModITools.ARCANE_CHISEL.get()))
-                    .title(Component.translatable("creativetab.thearcaneforge.arcane_tools_tab"))
+                    .title(Component.translatable("creativetab.thearcaneforge.arcane_tools_utils_tab"))
                     .displayItems((itemDisplayParameters,output) -> {
                         output.accept(ModITools.ARCANE_CHISEL.get());
                         output.accept(ModITools.GARNET_CHISEL.get());
@@ -27,18 +27,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ARCANE_SHOVEL.get());
                         output.accept(ModItems.ARCANE_AXE.get());
                         output.accept(ModItems.ARCANE_HOE.get());
-
+                        output.accept(ModItems.ARCANE_HAMMER.get());
                         //GARNET
                         output.accept(ModItems.PINK_GARNET_PICKAXE.get());
                         output.accept(ModItems.PINK_GARNET_SHOVEL.get());
                         output.accept(ModItems.PINK_GARNET_AXE.get());
                         output.accept(ModItems.PINK_GARNET_HOE.get());
+                        output.accept(ModItems.PINK_GARNET_HAMMER.get());
 
                         //BISMUTH
                         output.accept(ModItems.BISMUTH_PICKAXE.get());
                         output.accept(ModItems.BISMUTH_SHOVEL.get());
                         output.accept(ModItems.BISMUTH_AXE.get());
                         output.accept(ModItems.BISMUTH_HOE.get());
+                        output.accept(ModItems.BISMUTH_HAMMER.get());
 
 
                     }).build());
