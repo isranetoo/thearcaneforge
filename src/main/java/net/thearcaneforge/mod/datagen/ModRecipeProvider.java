@@ -102,6 +102,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
                 .save(pRecipeOutput);
 
+// ARCANE ARMOR RECIPES
+
+        // ARCANE HELMET
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // ARCANE CHESTPLATE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // ARCANE LEGGINS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // ARCANE BOOTS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
         //DECORATIVES
         stairBuilder(ModBlocks.ARCANE_STAIRS.get(), Ingredient.of(ModItems.ARCANE_GEMSTONE.get())).group("arcane_gemstone")
                 .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get())).save(pRecipeOutput);
@@ -208,6 +244,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" S ")
                 .define('A', ModItems.PINK_GARNET.get())
                 .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // PINK GARNET ARMOR RECIPES
+
+        // PINK GARNET HELMET
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.PINK_GARNET.get())
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // PINK GARNET CHESTPLATE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.PINK_GARNET.get())
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // PINK GARNET LEGGINS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.PINK_GARNET.get())
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // Pink Garnet BOOTS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.PINK_GARNET.get())
                 .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
                 .save(pRecipeOutput);
 
@@ -323,6 +395,44 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
                 .save(pRecipeOutput);
+
+        // BISMUTH ARMOR RECIPES
+
+        // BISMUTH HELMET
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH CHESTPLATE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH LEGGINS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // BISMUTH BOOTS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+
 
 
         //DECORATIVES

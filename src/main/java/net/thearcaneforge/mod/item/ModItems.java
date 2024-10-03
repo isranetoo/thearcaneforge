@@ -49,6 +49,23 @@ public class ModItems {
             () -> new HammerItem(ModToolTiers.ARCANE,new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ARCANE,8,-3.7f))));
 
+    //ARMOR
+    public static final RegistryObject<Item> ARCANE_HELMET = ITEMS.register("arcane_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ARCANE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(30))));
+
+    public static final RegistryObject<Item> ARCANE_CHESTPLATE = ITEMS.register("arcane_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ARCANE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(30))));
+
+    public static final RegistryObject<Item> ARCANE_LEGGINGS = ITEMS.register("arcane_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ARCANE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(30))));
+
+    public static final RegistryObject<Item> ARCANE_BOOTS = ITEMS.register("arcane_boots",
+            () -> new ArmorItem(ModArmorMaterials.ARCANE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(30))));
+
 
     //GARNET
     public  static final RegistryObject<Item> PINK_GARNET = ITEMS.register("pink_garnet",
@@ -84,6 +101,23 @@ public class ModItems {
             () -> new HammerItem(ModToolTiers.PINK_GARNET,new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.PINK_GARNET,8,-3.7f))));
 
+    //ARMOR
+    public static final RegistryObject<Item> PINK_GARNET_HELMET = ITEMS.register("pink_garnet_helmet",
+            () -> new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(35))));
+
+    public static final RegistryObject<Item> PINK_GARNET_CHESTPLATE = ITEMS.register("pink_garnet_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(35))));
+
+    public static final RegistryObject<Item> PINK_GARNET_LEGGINGS = ITEMS.register("pink_garnet_leggings",
+            () -> new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(35))));
+
+    public static final RegistryObject<Item> PINK_GARNET_BOOTS = ITEMS.register("pink_garnet_boots",
+            () -> new ArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(35))));
+
 
     //BISMUTH
     public static final RegistryObject<Item> BISMUTH_GEMSTONE = ITEMS.register("bismuth_gemstone",
@@ -118,6 +152,23 @@ public class ModItems {
     public static final RegistryObject<Item> BISMUTH_HAMMER = ITEMS.register("bismuth_hammer",
             () -> new HammerItem(ModToolTiers.BISMUTH,new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH,8,-3.7f))));
+
+    //ARMOR
+    public static final RegistryObject<Item> BISMUTH_HELMET = ITEMS.register("bismuth_helmet",
+            () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(35))));
+
+    public static final RegistryObject<Item> BISMUTH_CHESTPLATE = ITEMS.register("bismuth_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(35))));
+
+    public static final RegistryObject<Item> BISMUTH_LEGGINGS = ITEMS.register("bismuth_leggings",
+            () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(35))));
+
+    public static final RegistryObject<Item> BISMUTH_BOOTS = ITEMS.register("bismuth_boots",
+            () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(35))));
 
     //FOOD
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",

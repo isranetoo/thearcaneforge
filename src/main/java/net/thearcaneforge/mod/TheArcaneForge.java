@@ -83,9 +83,29 @@ public class TheArcaneForge
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT){
 
+            //ARCANE
             event.accept(ModItems.ARCANE_SWORD);
+
+            event.accept(ModItems.ARCANE_HELMET);
+            event.accept(ModItems.ARCANE_CHESTPLATE);
+            event.accept(ModItems.ARCANE_LEGGINGS);
+            event.accept(ModItems.ARCANE_BOOTS);
+
+            //PINK GARNET
             event.accept(ModItems.PINK_GARNET_SWORD);
+
+            event.accept(ModItems.PINK_GARNET_HELMET);
+            event.accept(ModItems.PINK_GARNET_CHESTPLATE);
+            event.accept(ModItems.PINK_GARNET_LEGGINGS);
+            event.accept(ModItems.PINK_GARNET_BOOTS);
+
+            //BISMUTH
             event.accept(ModItems.BISMUTH_SWORD);
+
+            event.accept(ModItems.BISMUTH_HELMET);
+            event.accept(ModItems.BISMUTH_CHESTPLATE);
+            event.accept(ModItems.BISMUTH_LEGGINGS);
+            event.accept(ModItems.BISMUTH_BOOTS);
 
         }
 

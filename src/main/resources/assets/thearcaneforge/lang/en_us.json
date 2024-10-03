@@ -28,6 +28,11 @@
   "item.thearcaneforge.arcane_hoe": "Arcane Hoe",
   "item.thearcaneforge.arcane_hammer": "Arcane Hoe",
 
+  "item.thearcaneforge.arcane_helmet": "Arcane Helmet",
+  "item.thearcaneforge.arcane_chestplate": "Arcane Chestplate",
+  "item.thearcaneforge.arcane_leggings": "Arcane Leggings",
+  "item.thearcaneforge.arcane_boots": "Arcane Boots",
+
   "item.thearcaneforge.pink_garnet_sword": "Pink Garnet Sword",
   "item.thearcaneforge.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
   "item.thearcaneforge.pink_garnet_shovel": "Pink Garnet Shovel",
@@ -35,12 +40,22 @@
   "item.thearcaneforge.pink_garnet_hoe": "Pink Garnet Hoe",
   "item.thearcaneforge.pink_garnet_hammer": "Pink Garnet Hammer",
 
+  "item.thearcaneforge.pink_garnet_helmet": "Pink Garnet Helmet",
+  "item.thearcaneforge.pink_garnet_chestplate": "Pink Garnet Chestplate",
+  "item.thearcaneforge.pink_garnet_leggings": "Pink Garnet Leggings",
+  "item.thearcaneforge.pink_garnet_boots": "Pink Garnet Boots",
+
   "item.thearcaneforge.bismuth_sword": "Bismuth Sword",
   "item.thearcaneforge.bismuth_pickaxe": "Bismuth Pickaxe",
   "item.thearcaneforge.bismuth_shovel": "Bismuth Shovel",
   "item.thearcaneforge.bismuth_axe": "Bismuth Axe",
   "item.thearcaneforge.bismuth_hoe": "Bismuth Hoe",
   "item.thearcaneforge.bismuth_hammer": "Bismuth Hammer",
+
+  "item.thearcaneforge.bismuth_helmet": "Bismuth Helmet",
+  "item.thearcaneforge.bismuth_chestplate": "Bismuth Chestplate",
+  "item.thearcaneforge.bismuth_leggings": "Bismuth Leggins",
+  "item.thearcaneforge.bismuth_boots": "Bismuth Boots",
 
   "item.thearcaneforge.arcane_chisel": "The Arcane Chisel",
   "item.thearcaneforge.garnet_chisel": "The Pink Garnet Chisel",

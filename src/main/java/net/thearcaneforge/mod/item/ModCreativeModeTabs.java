@@ -55,10 +55,28 @@ public class ModCreativeModeTabs {
 
                         //ARCANE
                         output.accept(ModItems.ARCANE_SWORD.get());
+
+                        output.accept(ModItems.ARCANE_HELMET.get());
+                        output.accept(ModItems.ARCANE_CHESTPLATE.get());
+                        output.accept(ModItems.ARCANE_LEGGINGS.get());
+                        output.accept(ModItems.ARCANE_BOOTS.get());
+
+
                         //GARNET
                         output.accept(ModItems.PINK_GARNET_SWORD.get());
+
+                        output.accept(ModItems.PINK_GARNET_HELMET.get());
+                        output.accept(ModItems.PINK_GARNET_CHESTPLATE.get());
+                        output.accept(ModItems.PINK_GARNET_LEGGINGS.get());
+                        output.accept(ModItems.PINK_GARNET_BOOTS.get());
+
                         //BISMUTH
                         output.accept(ModItems.BISMUTH_SWORD.get());
+
+                        output.accept(ModItems.BISMUTH_HELMET.get());
+                        output.accept(ModItems.BISMUTH_CHESTPLATE.get());
+                        output.accept(ModItems.BISMUTH_LEGGINGS.get());
+                        output.accept(ModItems.BISMUTH_BOOTS.get());
 
 
                     }).build());

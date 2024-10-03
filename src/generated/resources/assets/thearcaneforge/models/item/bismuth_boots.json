@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "thearcaneforge:item/bismuth_boots_quartz_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.1
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_iron_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.2
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_netherite_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.3
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_redstone_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.4
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_copper_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.5
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_gold_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.6
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_emerald_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.7
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_diamond_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.8
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_lapis_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.9
+      }
+    },
+    {
+      "model": "thearcaneforge:item/bismuth_boots_amethyst_trim",
+      "predicate": {
+        "minecraft:trim_type": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "thearcaneforge:item/bismuth_boots"
+  }
+}

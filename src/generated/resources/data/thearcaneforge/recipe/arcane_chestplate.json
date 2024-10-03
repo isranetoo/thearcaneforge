@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "thearcaneforge:arcane_gemstone"
+    }
+  },
+  "pattern": [
+    "A A",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:arcane_chestplate"
+  }
+}
