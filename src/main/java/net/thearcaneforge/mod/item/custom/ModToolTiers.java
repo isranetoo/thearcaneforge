@@ -19,4 +19,8 @@ public class ModToolTiers {
     public static Tier BISMUTH = new ForgeTier(1300,4,3f,10,
             ModTags.Blocks.NEEDS_BISMUTH_TOOL,() -> Ingredient.of(ModItems.BISMUTH_GEMSTONE.get()),
             ModTags.Blocks.INCORRECT_FOR_BISMUTH_TOOL);
+
+    public static Tier SAPPHIRE = new ForgeTier(1500,5,3f,10,
+            ModTags.Blocks.NEEDS_SAPPHIRE_TOOL,() -> Ingredient.of(ModItems.SAPPHIRE_GEMSTONE.get()),
+            ModTags.Blocks.INCORRECT_FOR_SAPPHIRE_TOOL);
 }

@@ -1,0 +1,10 @@
+{
+  "remove": [
+    "#thearcaneforge:needs_bismuth_tool",
+    "#thearcaneforge:needs_sapphire_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_iron_tool",
+    "#minecraft:incorrect_for_iron_tool"
+  ]
+}

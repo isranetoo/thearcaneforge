@@ -5,6 +5,9 @@
     "thearcaneforge:pink_garnet_block",
     "thearcaneforge:pink_garnet_ore",
     "thearcaneforge:bismuth_block",
-    "thearcaneforge:bismuth_ore"
+    "thearcaneforge:bismuth_ore",
+    "thearcaneforge:sapphire_block",
+    "thearcaneforge:raw_sapphire_block",
+    "thearcaneforge:sapphire_ore"
   ]
 }

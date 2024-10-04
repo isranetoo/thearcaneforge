@@ -38,7 +38,14 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
                 //BISMUTH
                 .add(ModBlocks.BISMUTH_BLOCK.get())
                 .add(ModBlocks.BISMUTH_ORE.get())
-                .add(ModBlocks.BISMUTH_DEESLATE_ORE.get());
+                .add(ModBlocks.BISMUTH_DEESLATE_ORE.get())
+
+                //SAPPHIRE
+                .add(ModBlocks.SAPPHIRE_BLOCK.get())
+                .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get())
+                .add(ModBlocks.SAPPHIRE_ORE.get())
+                .add(ModBlocks.SAPPHIRE_DEESLATE_ORE.get())
+                .add(ModBlocks.SAPPHIRE_NETHER_ORE.get());
 
                 //IRON TOOLS
         tag(BlockTags.NEEDS_IRON_TOOL)
@@ -47,13 +54,18 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
                 .add(ModBlocks.PINK_GARNET_BLOCK.get())
                 .add(ModBlocks.PINK_GARNET_ORE.get())
                 .add(ModBlocks.BISMUTH_BLOCK.get())
-                .add(ModBlocks.BISMUTH_ORE.get());
+                .add(ModBlocks.BISMUTH_ORE.get())
+                .add(ModBlocks.SAPPHIRE_BLOCK.get())
+                .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get())
+                .add(ModBlocks.SAPPHIRE_ORE.get());
 
                 //DIAMONDS TOOLS
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ARCANE_DEEPSLATE_ORE.get())
                 .add(ModBlocks.PINK_GARNET_DEESLATE_ORE.get())
-                .add(ModBlocks.BISMUTH_DEESLATE_ORE.get());
+                .add(ModBlocks.BISMUTH_DEESLATE_ORE.get())
+                .add(ModBlocks.SAPPHIRE_DEESLATE_ORE.get())
+                .add(ModBlocks.SAPPHIRE_NETHER_ORE.get());
 
         //DECORATIVES
 
@@ -93,6 +105,28 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_GARNET_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(ModTags.Blocks.NEEDS_GARNET_TOOL);
+
+        //BISMUTH
+        tag(ModTags.Blocks.NEEDS_BISMUTH_TOOL)
+                .add(ModBlocks.BISMUTH_ORE.get())
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(Blocks.OBSIDIAN);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_BISMUTH_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_BISMUTH_TOOL);
+
+        //SAPPHIRE
+        tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+                .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get())
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(Blocks.OBSIDIAN);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_SAPPHIRE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL);
+
+
 
     }
 }

@@ -14,4 +14,7 @@ public class ModFoodProperties {
 
     public static final FoodProperties CAULIFLOWER = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f)
             .effect(new MobEffectInstance(MobEffects.NIGHT_VISION,400), 0.20f).build();
+
+    public static final FoodProperties STRAWBERRY = new FoodProperties.Builder().nutrition(3).saturationModifier(0.25f)
+            .effect(new MobEffectInstance(MobEffects.REGENERATION, 400),0.20f).build();
 }

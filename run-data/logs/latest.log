@@ -1,27 +1,27 @@
-[03out.2024 01:11:39.037] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Israel Neto\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, thearcaneforge, --all, --output, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\generated\resources, --existing, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\main\resources]
-[03out.2024 01:11:39.041] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[03out.2024 01:11:39.043] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[03out.2024 01:11:39.175] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[03out.2024 01:11:39.342] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Israel%20Neto/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[03out.2024 01:11:40.837] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[03out.2024 01:11:41.783] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Israel Neto\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, thearcaneforge, --all, --output, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\generated\resources, --existing, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\main\resources]
-[03out.2024 01:11:47.909] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[03out.2024 01:11:47.909] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[03out.2024 01:11:47.929] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[03out.2024 01:11:48.959] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [thearcaneforge]
-[03out.2024 01:11:49.058] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Israel%20Neto/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[03out.2024 01:11:49.059] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Israel%20Neto/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[03out.2024 01:11:49.252] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[03out.2024 01:11:50.014] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 760 ms
-[03out.2024 01:11:50.014] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[03out.2024 01:11:50.848] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 834 ms
-[03out.2024 01:11:50.849] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id thearcaneforge
-[03out.2024 01:11:50.901] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id thearcaneforge finished after 52 ms
-[03out.2024 01:11:50.901] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id thearcaneforge
-[03out.2024 01:11:51.133] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id thearcaneforge finished after 230 ms
-[03out.2024 01:11:51.133] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: thearcaneforge
-[03out.2024 01:11:51.758] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: thearcaneforge finished after 624 ms
-[03out.2024 01:11:51.758] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: thearcaneforge
-[03out.2024 01:11:52.035] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: thearcaneforge finished after 276 ms
-[03out.2024 01:11:52.035] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 2782 ms
-[03out.2024 01:11:52.058] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 571, old count: 414, new count: 572, removed stale: 0, written: 157
+[04out.2024 00:41:27.999] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Israel Neto\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, thearcaneforge, --all, --output, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\generated\resources, --existing, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\main\resources]
+[04out.2024 00:41:28.003] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[04out.2024 00:41:28.005] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[04out.2024 00:41:28.117] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[04out.2024 00:41:28.221] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Israel%20Neto/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[04out.2024 00:41:29.351] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[04out.2024 00:41:30.105] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Israel Neto\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, thearcaneforge, --all, --output, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\generated\resources, --existing, C:\Users\Israel Neto\Desktop\I.A.N Ltda\Minecraft Mods\thearcaneforge\src\main\resources]
+[04out.2024 00:41:35.871] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[04out.2024 00:41:35.871] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[04out.2024 00:41:35.893] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[04out.2024 00:41:36.568] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [thearcaneforge]
+[04out.2024 00:41:36.631] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Israel%20Neto/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[04out.2024 00:41:36.631] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Israel%20Neto/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[04out.2024 00:41:36.760] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[04out.2024 00:41:36.986] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 226 ms
+[04out.2024 00:41:36.987] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[04out.2024 00:41:37.066] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 79 ms
+[04out.2024 00:41:37.067] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id thearcaneforge
+[04out.2024 00:41:37.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id thearcaneforge finished after 14 ms
+[04out.2024 00:41:37.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id thearcaneforge
+[04out.2024 00:41:37.083] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id thearcaneforge finished after 1 ms
+[04out.2024 00:41:37.083] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: thearcaneforge
+[04out.2024 00:41:37.149] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: thearcaneforge finished after 66 ms
+[04out.2024 00:41:37.149] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: thearcaneforge
+[04out.2024 00:41:37.329] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: thearcaneforge finished after 179 ms
+[04out.2024 00:41:37.330] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 570 ms
+[04out.2024 00:41:37.345] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 618, old count: 615, new count: 619, removed stale: 0, written: 4

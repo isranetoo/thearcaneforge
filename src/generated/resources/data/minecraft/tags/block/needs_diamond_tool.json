@@ -2,6 +2,8 @@
   "values": [
     "thearcaneforge:arcane_deepslate_ore",
     "thearcaneforge:pink_garnet_deepslate_ore",
-    "thearcaneforge:bismuth_deepslate_ore"
+    "thearcaneforge:bismuth_deepslate_ore",
+    "thearcaneforge:sapphire_deepslate_ore",
+    "thearcaneforge:sapphire_nether_ore"
   ]
 }

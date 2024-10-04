@@ -57,6 +57,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BISMUTH_GEMSTONE.get());
         basicItem(ModItems.RAW_BISMUTH.get());
 
+        //SAPPHIRE
+        basicItem(ModItems.SAPPHIRE_GEMSTONE.get());
+        basicItem(ModItems.RAW_SAPPHIRE.get());
+
         //CHISELS
         basicItem(ModITools.ARCANE_CHISEL.get());
         basicItem(ModITools.GARNET_CHISEL.get());
@@ -66,11 +70,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.KOHLRABI.get());
         basicItem(ModItems.RADISH.get());
         basicItem(ModItems.CAULIFLOWER.get());
+        basicItem(ModItems.STRAWBERRY.get());
 
         //FUEL
         basicItem(ModItems.ARCANE_ASHES.get());
         basicItem(ModItems.GARNET_ASHES.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
+        basicItem(ModItems.PINE_CONE.get());
 
         //DECORATIVES
 

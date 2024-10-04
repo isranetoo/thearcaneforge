@@ -465,6 +465,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
                 .save(pRecipeOutput);
 
+        //SAPPHIRE
+        List<ItemLike> SAPPHIRE_SMELTABLES = List.of(ModItems.RAW_SAPPHIRE.get(),
+                ModBlocks.SAPPHIRE_ORE.get(),ModBlocks.SAPPHIRE_DEESLATE_ORE.get(),ModBlocks.SAPPHIRE_NETHER_ORE.get());
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()),has(ModItems.SAPPHIRE_GEMSTONE.get())).save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.SAPPHIRE_GEMSTONE.get(),9)
+                .requires(ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()),has(ModBlocks.SAPPHIRE_BLOCK.get())).save(pRecipeOutput);
+
+        oreSmelting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE_GEMSTONE.get(), 0.25f,150,"sapphire_gemstone");
+        oreBlasting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE_GEMSTONE.get(), 0.25f,50,"sapphire_gemstone");
+
     }
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTIme, String pGroup) {

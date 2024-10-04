@@ -89,6 +89,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BISMUTH_BLOCK.get());
         dropSelf(ModBlocks.BISMUTH_LAMP.get());
 
+        //SAPPHIRE
+        dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
+
 
         // --ORES-- //
 
@@ -113,6 +116,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createMultipleOreDrops(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get(),2,6));
         this.add(ModBlocks.BISMUTH_DEESLATE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.BISMUTH_DEESLATE_ORE.get(), ModItems.RAW_BISMUTH.get(),2,6));
+
+        //SAPPHIRE
+        this.add(ModBlocks.SAPPHIRE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get(),2,6));
+        this.add(ModBlocks.SAPPHIRE_DEESLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.SAPPHIRE_DEESLATE_ORE.get(), ModItems.RAW_SAPPHIRE.get(),2,6));
+        this.add(ModBlocks.RAW_SAPPHIRE_BLOCK.get(),
+                block -> createMultipleOreDrops(ModBlocks.RAW_SAPPHIRE_BLOCK.get(), ModItems.RAW_SAPPHIRE.get(),2,6));
+        this.add(ModBlocks.SAPPHIRE_NETHER_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.SAPPHIRE_NETHER_ORE.get(), ModItems.RAW_SAPPHIRE.get(),2,6));
 
     }
 

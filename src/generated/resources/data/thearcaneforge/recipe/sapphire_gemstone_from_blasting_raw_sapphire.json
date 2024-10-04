@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.25,
+  "group": "sapphire_gemstone",
+  "ingredient": {
+    "item": "thearcaneforge:raw_sapphire"
+  },
+  "result": {
+    "id": "thearcaneforge:sapphire_gemstone"
+  }
+}

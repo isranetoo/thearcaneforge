@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sapphire_nether_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thearcaneforge:sapphire_nether_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thearcaneforge:sapphire_gemstone_from_blasting_sapphire_nether_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sapphire_nether_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thearcaneforge:sapphire_gemstone_from_blasting_sapphire_nether_ore"
+    ]
+  }
+}

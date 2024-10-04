@@ -12,14 +12,19 @@
   "item.thearcaneforge.raw_pink_garnet": "Raw Pink Garnet",
   "item.thearcaneforge.bismuth_gemstone": "Bismuth Gemstone",
   "item.thearcaneforge.raw_bismuth": "Raw Bismuth",
+  "item.thearcaneforge.sapphire_gemstone": "Sapphire Gemstone",
+  "item.thearcaneforge.raw_sapphire": "Raw Sapphire",
+
 
   "item.thearcaneforge.kohlrabi": "Kohlrabi",
   "item.thearcaneforge.radish": "Radish",
   "item.thearcaneforge.cauliflower": "Cauliflower",
+  "item.thearcaneforge.strawberry": "Strawberry",
 
   "item.thearcaneforge.arcane_ashes": "Arcane Ashes",
   "item.thearcaneforge.garnet_ashes": "Garnet Ashes",
   "item.thearcaneforge.frostfire_ice": "Frost Fire Ice",
+  "item.thearcaneforge.pine_cone": "Pine Cone",
 
   "item.thearcaneforge.arcane_sword": "Arcane Sword",
   "item.thearcaneforge.arcane_pickaxe": "Arcane Pickaxe",
@@ -75,6 +80,12 @@
   "block.thearcaneforge.bismuth_ore": "Bismuth Ore",
   "block.thearcaneforge.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
 
+  "block.thearcaneforge.sapphire_block": "Sapphire Block",
+  "block.thearcaneforge.raw_sapphire_block": "Raw Sapphire Block",
+  "block.thearcaneforge.sapphire_ore": "Sapphire Ore",
+  "block.thearcaneforge.sapphire_deepslate_ore": "Sapphire Deepslate Ore",
+  "block.thearcaneforge.sapphire_nether_ore": "Sapphire Nether Ore",
+
   "block.thearcaneforge.arcane_stairs": "Arcane Stairs",
   "block.thearcaneforge.arcane_slab": "Arcane Slab",
   "block.thearcaneforge.arcane_pressure_plate": "Arcane Pressure Plate",
@@ -115,10 +126,14 @@
   "tooltip.thearcaneforge.bismuth_chisel": "Press §eShift§r for more Information !",
   "tooltip.thearcaneforge.garnet_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
   "tooltip.thearcaneforge.garnet_chisel": "Press §eShift§r for more Information !",
+
   "tooltip.thearcaneforge.kohlrabi": "20% of §6INVISIBILITY§r",
   "tooltip.thearcaneforge.radish": "20% of §3DOLPHINS GRACE§r",
   "tooltip.thearcaneforge.cauliflower": "20% of §5NIGHT VISION§r",
+  "tooltip.thearcaneforge.strawberry": "20% of §4REGENERATION§r",
+
   "tooltip.thearcaneforge.arcane_ashes": "Can be used as §cFUEL§r",
   "tooltip.thearcaneforge.garnet_ashes": "Can be used as §cFUEL§r",
-  "tooltip.thearcaneforge.frostfire_ice": "Can be used as §cFUEL§r"
+  "tooltip.thearcaneforge.frostfire_ice": "Can be used as §cFUEL§r",
+  "tooltip.thearcaneforge.pine_cone": "Can be used as §cFUEL§r"
 }

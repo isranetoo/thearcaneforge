@@ -170,6 +170,13 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(35))));
 
+    //SAPPHIRE
+    public static final RegistryObject<Item> SAPPHIRE_GEMSTONE = ITEMS.register("sapphire_gemstone",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
+            () -> new Item(new Item.Properties()));
+
     //FOOD
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
             () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)){
@@ -195,6 +202,15 @@ public class ModItems {
                 @Override
                 public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     pTooltipComponents.add(Component.translatable("tooltip.thearcaneforge.cauliflower"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.STRAWBERRY)){
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.thearcaneforge.strawberry"));
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
             });
@@ -226,6 +242,16 @@ public class ModItems {
         @Override
                 public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
                     pTooltipComponents.add(Component.translatable("tooltip.thearcaneforge.frostfire_ice"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+                }
+            });
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FueItem(new Item.Properties(),1200){
+
+                @Override
+                public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.thearcaneforge.pine_cone"));
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
                 }
             });

@@ -1,4 +1,4 @@
-// 1.21	2024-10-03T01:11:52.0422329	Item Models: thearcaneforge
+// 1.21	2024-10-04T00:41:37.3338902	Item Models: thearcaneforge
 e781e9a09fda9d403313ee81d4089bbaa73fbef2 assets/thearcaneforge/models/item/arcane_ashes.json
 5748fa5c9a8418a6e31d1611a81186e3f7b660d3 assets/thearcaneforge/models/item/arcane_axe.json
 2090927ba440b006d29da1c8afa2e80825175e4f assets/thearcaneforge/models/item/arcane_boots.json
@@ -117,6 +117,7 @@ caf4e0fad4fc3748b4a5368f014132b1eb89a25c assets/thearcaneforge/models/item/frost
 5c9404f23457b65eb118ff03ed2be7e29c17ee39 assets/thearcaneforge/models/item/garnet_ashes.json
 88394c7414340545cb1f212af1b83b82d13d4a45 assets/thearcaneforge/models/item/garnet_chisel.json
 0d66da62fa54900c49b0b21d6217e50bd2f62677 assets/thearcaneforge/models/item/kohlrabi.json
+311cdeaa670cde0679ed591a94204e4de509dbae assets/thearcaneforge/models/item/pine_cone.json
 328faca6bdb691c1a48e97a9e986a3ea5f892e2b assets/thearcaneforge/models/item/pink_garnet.json
 fce53f540fb09bc1ea5fd06e3c1c7a15dd60be77 assets/thearcaneforge/models/item/pink_garnet_axe.json
 15bdf46b8bd2df9fe938a69a144a850ba6b3a23a assets/thearcaneforge/models/item/pink_garnet_boots.json
@@ -176,3 +177,6 @@ dc2957ee3665204465fe411a6cc36c28f06a7d41 assets/thearcaneforge/models/item/radis
 2cc4e108499ca1d4d1c92850e745d8f527354c6c assets/thearcaneforge/models/item/raw_arcane_ore.json
 64abcb468439c4caaa56c86e4d74a8232496cf56 assets/thearcaneforge/models/item/raw_bismuth.json
 c6d20bcc9a63b4a309b2af82c1132464ab995321 assets/thearcaneforge/models/item/raw_pink_garnet.json
+b92c53133748a32b21b29fb1bde588d511249d54 assets/thearcaneforge/models/item/raw_sapphire.json
+30b903e9c0b8720357ba91ce536322a37a529aa7 assets/thearcaneforge/models/item/sapphire_gemstone.json
+cf98e2e6539466fa4e6b4cf2f8016ea45035714d assets/thearcaneforge/models/item/strawberry.json

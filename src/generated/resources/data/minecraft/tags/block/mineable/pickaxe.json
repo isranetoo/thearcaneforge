@@ -10,6 +10,11 @@
     "thearcaneforge:pink_garnet_deepslate_ore",
     "thearcaneforge:bismuth_block",
     "thearcaneforge:bismuth_ore",
-    "thearcaneforge:bismuth_deepslate_ore"
+    "thearcaneforge:bismuth_deepslate_ore",
+    "thearcaneforge:sapphire_block",
+    "thearcaneforge:raw_sapphire_block",
+    "thearcaneforge:sapphire_ore",
+    "thearcaneforge:sapphire_deepslate_ore",
+    "thearcaneforge:sapphire_nether_ore"
   ]
 }

@@ -101,10 +101,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_GEMSTONE.get());
                         output.accept(ModItems.RAW_BISMUTH.get());
 
+                        //SAPPHIRE
+                        output.accept(ModItems.SAPPHIRE_GEMSTONE.get());
+                        output.accept(ModItems.RAW_SAPPHIRE.get());
+
                         //FUEL
                         output.accept(ModItems.ARCANE_ASHES.get());
                         output.accept(ModItems.GARNET_ASHES.get());
                         output.accept(ModItems.FROSTFIRE_ICE.get());
+                        output.accept(ModItems.PINE_CONE.get());
 
                     }).build());
 
@@ -133,6 +138,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_ORE.get());
                         output.accept(ModBlocks.BISMUTH_DEESLATE_ORE.get());
 
+                        //SAPPHIRE
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.SAPPHIRE_DEESLATE_ORE.get());
+                        output.accept(ModBlocks.SAPPHIRE_NETHER_ORE.get());
+
 
                     }).build());
 
@@ -148,6 +160,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.RADISH.get());
                         output.accept(ModItems.CAULIFLOWER.get());
+                        output.accept(ModItems.STRAWBERRY.get());
 
                     }).build());
 

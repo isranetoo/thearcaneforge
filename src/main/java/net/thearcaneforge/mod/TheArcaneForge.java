@@ -113,6 +113,7 @@ public class TheArcaneForge
             event.accept(ModItems.KOHLRABI);
             event.accept(ModItems.RADISH);
             event.accept(ModItems.CAULIFLOWER);
+            event.accept(ModItems.STRAWBERRY);
         }
 
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
@@ -126,10 +127,14 @@ public class TheArcaneForge
             //BISMUTH
             event.accept(ModItems.BISMUTH_GEMSTONE);
             event.accept(ModItems.RAW_BISMUTH);
+            //SAPPHIRE
+            event.accept(ModItems.SAPPHIRE_GEMSTONE);
+            event.accept(ModItems.RAW_SAPPHIRE);
             //FUEL
             event.accept(ModItems.ARCANE_ASHES);
             event.accept(ModItems.GARNET_ASHES);
             event.accept(ModItems.FROSTFIRE_ICE);
+            event.accept(ModItems.PINE_CONE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
@@ -147,6 +152,7 @@ public class TheArcaneForge
             event.accept(ModBlocks.ARCANE_BLOCK);
             event.accept(ModBlocks.PINK_GARNET_BLOCK);
             event.accept(ModBlocks.BISMUTH_BLOCK);
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
 
             //DECORATIVES
 
@@ -203,6 +209,12 @@ public class TheArcaneForge
             event.accept(ModBlocks.BISMUTH_ORE);
             event.accept(ModBlocks.BISMUTH_DEESLATE_ORE);
 
+            //SAPPHIRE
+
+            event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.SAPPHIRE_ORE);
+            event.accept(ModBlocks.SAPPHIRE_DEESLATE_ORE);
+            event.accept(ModBlocks.SAPPHIRE_NETHER_ORE);
         }
     }
 

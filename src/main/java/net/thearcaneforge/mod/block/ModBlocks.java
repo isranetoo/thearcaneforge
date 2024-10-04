@@ -179,6 +179,29 @@ public class ModBlocks {
     public static final RegistryObject<TrapDoorBlock> BISMUTH_TRAPDOOR = registerBlock("bismuth_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
 
+    //SAPPHIRE
+
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SAPPHIRE_DEESLATE_ORE = registerBlock("sapphire_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> SAPPHIRE_NETHER_ORE = registerBlock("sapphire_nether_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.NETHER_ORE)));
+
+
 
 
 
