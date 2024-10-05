@@ -483,6 +483,133 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE_GEMSTONE.get(), 0.25f,150,"sapphire_gemstone");
         oreBlasting(pRecipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE_GEMSTONE.get(), 0.25f,50,"sapphire_gemstone");
 
+        //DECORATIVES
+
+        stairBuilder(ModBlocks.SAPPHIRE_STAIRS.get(), Ingredient.of(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .group("sapphire_gemstone")
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_SLAB.get(), ModItems.SAPPHIRE_GEMSTONE.get());
+
+        buttonBuilder(ModBlocks.SAPPHIRE_BUTTON.get(), Ingredient.of(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .group("sapphire_gemstone")
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        pressurePlate(pRecipeOutput, ModBlocks.SAPPHIRE_PRESSURE_PLATE.get(), ModItems.SAPPHIRE_GEMSTONE.get());
+
+        fenceBuilder(ModBlocks.SAPPHIRE_FENCE.get(), Ingredient.of(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .group("sapphire_gemstone")
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        fenceGateBuilder(ModBlocks.SAPPHIRE_FENCE_GATE.get(), Ingredient.of(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .group("sapphire_gemstone")
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_WALL.get(), ModItems.SAPPHIRE_GEMSTONE.get());
+
+        doorBuilder(ModBlocks.SAPPHIRE_DOOR.get(), Ingredient.of(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .group("sapphire_gemstone")
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        trapdoorBuilder(ModBlocks.SAPPHIRE_TRAPDOOR.get(), Ingredient.of(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .group("sapphire_gemstone")
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // SAPPHIRE SWORD Recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+// SAPPHIRE PICKAXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+// SAPPHIRE AXE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_AXE.get())
+                .pattern("AA ")
+                .pattern("AS ")
+                .pattern(" S ")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+// SAPPHIRE SHOVEL
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+// SAPPHIRE HOE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_HOE.get())
+                .pattern("AA ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // SAPPHIRE ARMOR RECIPES
+
+        // SAPPHIRE HELMET
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // SAPPHIRE CHESTPLATE
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // SAPPHIRE LEGGINGS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // SAPPHIRE BOOTS
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.SAPPHIRE_BOOTS.get())
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.SAPPHIRE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE_GEMSTONE.get()), has(ModItems.SAPPHIRE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+
+
+
     }
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTIme, String pGroup) {

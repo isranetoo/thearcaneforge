@@ -38,5 +38,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.BISMUTH_CHESTPLATE.get())
                 .add(ModItems.BISMUTH_LEGGINGS.get())
                 .add(ModItems.BISMUTH_BOOTS.get());
+
+        tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.SAPPHIRE_HELMET.get())
+                .add(ModItems.SAPPHIRE_CHESTPLATE.get())
+                .add(ModItems.SAPPHIRE_LEGGINGS.get())
+                .add(ModItems.SAPPHIRE_BOOTS.get());
     }
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "sapphire_gemstone",
+  "ingredients": [
+    {
+      "item": "thearcaneforge:sapphire_gemstone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "thearcaneforge:sapphire_button"
+  }
+}

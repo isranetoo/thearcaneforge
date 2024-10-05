@@ -92,6 +92,21 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         //SAPPHIRE
         dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
 
+        //DECORATIVES BISMUTH
+
+        dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
+        dropSelf(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
+        dropSelf(ModBlocks.SAPPHIRE_FENCE.get());
+        dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        dropSelf(ModBlocks.SAPPHIRE_WALL.get());
+        dropSelf(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+
+        this.add(ModBlocks.SAPPHIRE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
+        this.add(ModBlocks.SAPPHIRE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
+
 
         // --ORES-- //
 

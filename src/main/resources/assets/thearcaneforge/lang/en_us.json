@@ -57,10 +57,21 @@
   "item.thearcaneforge.bismuth_hoe": "Bismuth Hoe",
   "item.thearcaneforge.bismuth_hammer": "Bismuth Hammer",
 
+  "item.thearcaneforge.sapphire_sword": "Sapphire Sword",
+  "item.thearcaneforge.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.thearcaneforge.sapphire_shovel": "Sapphire Shovel",
+  "item.thearcaneforge.sapphire_axe": "Sapphire Axe",
+  "item.thearcaneforge.sapphire_hoe": "Sapphire Hoe",
+
   "item.thearcaneforge.bismuth_helmet": "Bismuth Helmet",
   "item.thearcaneforge.bismuth_chestplate": "Bismuth Chestplate",
   "item.thearcaneforge.bismuth_leggings": "Bismuth Leggins",
   "item.thearcaneforge.bismuth_boots": "Bismuth Boots",
+
+  "item.thearcaneforge.sapphire_helmet": "Sapphire Helmet",
+  "item.thearcaneforge.sapphire_chestplate": "Sapphire Chestplate",
+  "item.thearcaneforge.sapphire_leggings": "Sapphire Leggins",
+  "item.thearcaneforge.sapphire_boots": "Sapphire Boots",
 
   "item.thearcaneforge.arcane_chisel": "The Arcane Chisel",
   "item.thearcaneforge.garnet_chisel": "The Pink Garnet Chisel",
@@ -119,6 +130,16 @@
   "block.thearcaneforge.bismuth_door": "Bismuth Door",
   "block.thearcaneforge.bismuth_trapdoor": "Bismuth Trapdoor",
   "block.thearcaneforge.bismuth_lamp": "Bismuth Lamp",
+
+  "block.thearcaneforge.sapphire_stairs": "Sapphire Stairs",
+  "block.thearcaneforge.sapphire_slab": "Sapphire Slab",
+  "block.thearcaneforge.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.thearcaneforge.sapphire_button": "Sapphire Button",
+  "block.thearcaneforge.sapphire_fence": "Sapphire Fence",
+  "block.thearcaneforge.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.thearcaneforge.sapphire_wall": "Sapphire Wall",
+  "block.thearcaneforge.sapphire_door": "Sapphire Door",
+  "block.thearcaneforge.sapphire_trapdoor": "Sapphire Trapdoor",
 
   "tooltip.thearcaneforge.arcane_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
   "tooltip.thearcaneforge.arcane_chisel": "Press §eShift§r for more Information !",

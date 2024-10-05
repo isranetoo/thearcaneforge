@@ -84,6 +84,11 @@ public class ModBlockTagProvider  extends BlockTagsProvider {
         tag(BlockTags.FENCE_GATES).add(ModBlocks.BISMUTH_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.BISMUTH_WALL.get());
 
+        //SAPPHIRE
+        tag(BlockTags.FENCES).add(ModBlocks.SAPPHIRE_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.SAPPHIRE_WALL.get());
+
         //TOOLS
 
         //ARCANE

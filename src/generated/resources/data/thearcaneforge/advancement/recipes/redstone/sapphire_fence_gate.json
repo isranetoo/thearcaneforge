@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sapphire_gemstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thearcaneforge:sapphire_gemstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thearcaneforge:sapphire_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sapphire_gemstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thearcaneforge:sapphire_fence_gate"
+    ]
+  }
+}

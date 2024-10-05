@@ -112,6 +112,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SAPPHIRE_DEESLATE_ORE);
         blockWithItem(ModBlocks.SAPPHIRE_NETHER_ORE);
 
+        //DECORATIVES
+
+        stairsBlock(ModBlocks.SAPPHIRE_STAIRS.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
+        slabBlock(ModBlocks.SAPPHIRE_SLAB.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
+
+        buttonBlock(ModBlocks.SAPPHIRE_BUTTON.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
+        pressurePlateBlock(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
+
+        fenceBlock(ModBlocks.SAPPHIRE_FENCE.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
+        fenceGateBlock(ModBlocks.SAPPHIRE_FENCE_GATE.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
+        wallBlock(ModBlocks.SAPPHIRE_WALL.get(), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
+
+        doorBlockWithRenderType(ModBlocks.SAPPHIRE_DOOR.get(), modLoc("block/sapphire_door_bottom"), modLoc("block/sapphire_door_top"), "cutout");
+        trapdoorBlockWithRenderType(ModBlocks.SAPPHIRE_TRAPDOOR.get(), modLoc("block/sapphire_trapdoor"), true, "cutout");
+
+        blockItem(ModBlocks.SAPPHIRE_STAIRS);
+        blockItem(ModBlocks.SAPPHIRE_SLAB);
+        blockItem(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+        blockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
+        blockItem(ModBlocks.SAPPHIRE_TRAPDOOR, "_bottom");
+
 
     }
 

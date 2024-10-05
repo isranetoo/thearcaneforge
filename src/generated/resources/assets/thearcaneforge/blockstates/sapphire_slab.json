@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thearcaneforge:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "thearcaneforge:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "thearcaneforge:block/sapphire_slab_top"
+    }
+  }
+}

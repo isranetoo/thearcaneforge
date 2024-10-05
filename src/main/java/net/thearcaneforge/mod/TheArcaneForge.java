@@ -79,6 +79,11 @@ public class TheArcaneForge
             event.accept(ModItems.BISMUTH_SHOVEL);
             event.accept(ModItems.BISMUTH_HOE);
             event.accept(ModItems.BISMUTH_HAMMER);
+
+            event.accept(ModItems.SAPPHIRE_PICKAXE);
+            event.accept(ModItems.SAPPHIRE_AXE);
+            event.accept(ModItems.SAPPHIRE_SHOVEL);
+            event.accept(ModItems.SAPPHIRE_HOE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT){
@@ -106,6 +111,15 @@ public class TheArcaneForge
             event.accept(ModItems.BISMUTH_CHESTPLATE);
             event.accept(ModItems.BISMUTH_LEGGINGS);
             event.accept(ModItems.BISMUTH_BOOTS);
+
+            //SAPPHIRE
+            event.accept(ModItems.SAPPHIRE_SWORD);
+
+            event.accept(ModItems.SAPPHIRE_HELMET);
+            event.accept(ModItems.SAPPHIRE_CHESTPLATE);
+            event.accept(ModItems.SAPPHIRE_LEGGINGS);
+            event.accept(ModItems.SAPPHIRE_BOOTS);
+
 
         }
 
@@ -188,6 +202,17 @@ public class TheArcaneForge
             event.accept(ModBlocks.BISMUTH_WALL);
             event.accept(ModBlocks.BISMUTH_DOOR);
             event.accept(ModBlocks.BISMUTH_TRAPDOOR);
+
+            //SAPPHIRE
+            event.accept(ModBlocks.SAPPHIRE_STAIRS);
+            event.accept(ModBlocks.SAPPHIRE_SLAB);
+            event.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+            event.accept(ModBlocks.SAPPHIRE_BUTTON);
+            event.accept(ModBlocks.SAPPHIRE_FENCE);
+            event.accept(ModBlocks.SAPPHIRE_FENCE_GATE);
+            event.accept(ModBlocks.SAPPHIRE_WALL);
+            event.accept(ModBlocks.SAPPHIRE_DOOR);
+            event.accept(ModBlocks.SAPPHIRE_TRAPDOOR);
 
 
 

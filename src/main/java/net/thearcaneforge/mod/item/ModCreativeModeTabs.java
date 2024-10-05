@@ -42,6 +42,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_HOE.get());
                         output.accept(ModItems.BISMUTH_HAMMER.get());
 
+                        //SAPPHIRE
+                        output.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                        output.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                        output.accept(ModItems.SAPPHIRE_AXE.get());
+                        output.accept(ModItems.SAPPHIRE_HOE.get());
+
+
 
                     }).build());
 
@@ -77,6 +84,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_CHESTPLATE.get());
                         output.accept(ModItems.BISMUTH_LEGGINGS.get());
                         output.accept(ModItems.BISMUTH_BOOTS.get());
+
+                        //SAPPHIRE
+                        output.accept(ModItems.SAPPHIRE_SWORD.get());
+
+                        output.accept(ModItems.SAPPHIRE_HELMET.get());
+                        output.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                        output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                        output.accept(ModItems.SAPPHIRE_BOOTS.get());
 
 
                     }).build());
@@ -205,6 +220,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_DOOR.get());
                         output.accept(ModBlocks.BISMUTH_TRAPDOOR.get());
                         output.accept(ModBlocks.BISMUTH_LAMP.get());
+
+                        //SAPPHIRE
+                        output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        output.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        output.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                        output.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        output.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        output.accept(ModBlocks.SAPPHIRE_WALL.get());
+                        output.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                        output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+
 
 
                     }).build());

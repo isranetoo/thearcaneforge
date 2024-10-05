@@ -101,6 +101,13 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.BISMUTH_DOOR);
 
+        //SAPPHIRE
+        buttonItem(ModBlocks.SAPPHIRE_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
+        fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
+        wallItem(ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
+
+        simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
+
         //TOOLS
 
         //ARCANE
@@ -142,6 +149,20 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.BISMUTH_CHESTPLATE);
         trimmedArmorItem(ModItems.BISMUTH_LEGGINGS);
         trimmedArmorItem(ModItems.BISMUTH_BOOTS);
+
+        //SAPPHIRE
+
+        handheldItem(ModItems.SAPPHIRE_SWORD);
+        handheldItem(ModItems.SAPPHIRE_PICKAXE);
+        handheldItem(ModItems.SAPPHIRE_SHOVEL);
+        handheldItem(ModItems.SAPPHIRE_AXE);
+        handheldItem(ModItems.SAPPHIRE_HOE);
+
+        trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
+        trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
+        trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
+        trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
+
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

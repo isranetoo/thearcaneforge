@@ -1,10 +1,10 @@
-// 1.21	2024-10-04T00:41:37.3318605	Tags for minecraft:block mod id thearcaneforge
-5f15e327851df3ec9a3202b40df6c132a53f04c4 data/minecraft/tags/block/fences.json
-925c16331b029622215524b43680011c76b97d37 data/minecraft/tags/block/fence_gates.json
+// 1.21	2024-10-04T23:52:34.902644	Tags for minecraft:block mod id thearcaneforge
+c55f59a6675717a1e44bf70a77af8d3675218d7d data/minecraft/tags/block/fences.json
+e139385e6ae542d2095b0b0a7a52412bec2485d4 data/minecraft/tags/block/fence_gates.json
 8db65f7620bd02983b26c970b928f01901e17995 data/minecraft/tags/block/mineable/pickaxe.json
 03de0ab325f69717b2101bc968aaf598a24589d2 data/minecraft/tags/block/needs_diamond_tool.json
 8be4a454515afe62e93beb8dbece736091a303ba data/minecraft/tags/block/needs_iron_tool.json
-c98e30c5c66b63e581e455c9d7a65e505eb213b3 data/minecraft/tags/block/walls.json
+2d921e4b8b3dcab5813c7fecad36c91add8190d7 data/minecraft/tags/block/walls.json
 ea2a899f68d49076dd639c881ac9155e22ab7b48 data/thearcaneforge/tags/block/incorrect_for_arcane_tool.json
 79771b3c000440699e47c8a525f400ae7c155a4c data/thearcaneforge/tags/block/incorrect_for_bismuth_tool.json
 ada45319d96cab46b8e1e307aa6b15cceb6c5e59 data/thearcaneforge/tags/block/incorrect_for_garnet_tool.json

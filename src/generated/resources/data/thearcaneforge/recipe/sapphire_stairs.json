@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sapphire_gemstone",
+  "key": {
+    "#": {
+      "item": "thearcaneforge:sapphire_gemstone"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "thearcaneforge:sapphire_stairs"
+  }
+}
