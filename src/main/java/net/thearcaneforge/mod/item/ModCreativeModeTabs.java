@@ -68,6 +68,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ARCANE_LEGGINGS.get());
                         output.accept(ModItems.ARCANE_BOOTS.get());
 
+                        output.accept(ModItems.ARCANE_HORSE_ARMOR.get());
+
 
                         //GARNET
                         output.accept(ModItems.PINK_GARNET_SWORD.get());
@@ -77,6 +79,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PINK_GARNET_LEGGINGS.get());
                         output.accept(ModItems.PINK_GARNET_BOOTS.get());
 
+                        output.accept(ModItems.PINK_GARNET_HORSE_ARMOR.get());
+
                         //BISMUTH
                         output.accept(ModItems.BISMUTH_SWORD.get());
 
@@ -84,6 +88,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_CHESTPLATE.get());
                         output.accept(ModItems.BISMUTH_LEGGINGS.get());
                         output.accept(ModItems.BISMUTH_BOOTS.get());
+
+                        output.accept(ModItems.BISMUTH_HORSE_ARMOR.get());
 
                         //SAPPHIRE
                         output.accept(ModItems.SAPPHIRE_SWORD.get());

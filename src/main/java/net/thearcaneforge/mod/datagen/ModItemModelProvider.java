@@ -13,6 +13,7 @@ import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
@@ -118,10 +119,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.ARCANE_HOE);
         handheldItem(ModItems.ARCANE_HAMMER);
 
+        //ARMOR
         trimmedArmorItem(ModItems.ARCANE_HELMET);
         trimmedArmorItem(ModItems.ARCANE_CHESTPLATE);
         trimmedArmorItem(ModItems.ARCANE_LEGGINGS);
         trimmedArmorItem(ModItems.ARCANE_BOOTS);
+
+        basicItem(ModItems.ARCANE_HORSE_ARMOR.get());
 
         //GARNET
         handheldItem(ModItems.PINK_GARNET_SWORD);
@@ -131,10 +135,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.PINK_GARNET_HOE);
         handheldItem(ModItems.PINK_GARNET_HAMMER);
 
+        //ARMOR
         trimmedArmorItem(ModItems.PINK_GARNET_HELMET);
         trimmedArmorItem(ModItems.PINK_GARNET_CHESTPLATE);
         trimmedArmorItem(ModItems.PINK_GARNET_LEGGINGS);
         trimmedArmorItem(ModItems.PINK_GARNET_BOOTS);
+
+        basicItem(ModItems.PINK_GARNET_HORSE_ARMOR.get());
 
         //BISMUTH
 
@@ -145,10 +152,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.BISMUTH_HOE);
         handheldItem(ModItems.BISMUTH_HAMMER);
 
+        //ARMOR
         trimmedArmorItem(ModItems.BISMUTH_HELMET);
         trimmedArmorItem(ModItems.BISMUTH_CHESTPLATE);
         trimmedArmorItem(ModItems.BISMUTH_LEGGINGS);
         trimmedArmorItem(ModItems.BISMUTH_BOOTS);
+
+        basicItem(ModItems.BISMUTH_HORSE_ARMOR.get());
 
         //SAPPHIRE
 
