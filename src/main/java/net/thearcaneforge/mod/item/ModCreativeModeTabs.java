@@ -99,6 +99,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
                         output.accept(ModItems.SAPPHIRE_BOOTS.get());
 
+                        //TRIMS
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
 
                     }).build());
 

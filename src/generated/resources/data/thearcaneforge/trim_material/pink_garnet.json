@@ -1,0 +1,9 @@
+{
+  "asset_name": "pink_garnet",
+  "description": {
+    "color": "#031CFC",
+    "translate": "trim_material.thearcaneforge.pink_garnet"
+  },
+  "ingredient": "thearcaneforge:pink_garnet",
+  "item_model_index": 1.0
+}

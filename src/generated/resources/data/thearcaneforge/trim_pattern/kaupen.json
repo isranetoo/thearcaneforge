@@ -1,0 +1,8 @@
+{
+  "asset_id": "thearcaneforge:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.thearcaneforge.kaupen"
+  },
+  "template_item": "thearcaneforge:kaupen_armor_trim_smithing_template"
+}

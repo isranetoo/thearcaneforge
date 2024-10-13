@@ -96,6 +96,8 @@ public class TheArcaneForge
             event.accept(ModItems.ARCANE_LEGGINGS);
             event.accept(ModItems.ARCANE_BOOTS);
 
+            event.accept(ModItems.ARCANE_HORSE_ARMOR);
+
             //PINK GARNET
             event.accept(ModItems.PINK_GARNET_SWORD);
 
@@ -104,6 +106,8 @@ public class TheArcaneForge
             event.accept(ModItems.PINK_GARNET_LEGGINGS);
             event.accept(ModItems.PINK_GARNET_BOOTS);
 
+            event.accept(ModItems.PINK_GARNET_HORSE_ARMOR);
+
             //BISMUTH
             event.accept(ModItems.BISMUTH_SWORD);
 
@@ -111,6 +115,8 @@ public class TheArcaneForge
             event.accept(ModItems.BISMUTH_CHESTPLATE);
             event.accept(ModItems.BISMUTH_LEGGINGS);
             event.accept(ModItems.BISMUTH_BOOTS);
+
+            event.accept(ModItems.BISMUTH_HORSE_ARMOR);
 
             //SAPPHIRE
             event.accept(ModItems.SAPPHIRE_SWORD);
@@ -149,6 +155,9 @@ public class TheArcaneForge
             event.accept(ModItems.GARNET_ASHES);
             event.accept(ModItems.FROSTFIRE_ICE);
             event.accept(ModItems.PINE_CONE);
+
+            //TRIMS
+            event.accept(ModItems.KAUPEN_SMITHING_TEMPLATE);
         }
 
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){

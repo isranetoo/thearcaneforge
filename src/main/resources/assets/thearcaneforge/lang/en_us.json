@@ -80,6 +80,13 @@
   "item.thearcaneforge.garnet_chisel": "The Pink Garnet Chisel",
   "item.thearcaneforge.bismuth_chisel": "The Bismuth Chisel",
 
+  "item.thearcaneforge.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
+
+  "trim_pattern.thearcaneforge.kaupen": "Kaupen Armor Trim",
+  "trim_material.thearcaneforge.arcane_gemstone": "Arcane Material",
+  "trim_material.thearcaneforge.pink_garnet": "Pink Garnet Material",
+  "trim_material.thearcaneforge.bismuth_gemstone": "Bismuth Material",
+
   "block.thearcaneforge.arcane_block": "Arcane Block",
   "block.thearcaneforge.raw_arcane_block": "Raw Arcane Block",
   "block.thearcaneforge.arcane_ore": "Arcane Ore",
@@ -143,6 +150,8 @@
   "block.thearcaneforge.sapphire_wall": "Sapphire Wall",
   "block.thearcaneforge.sapphire_door": "Sapphire Door",
   "block.thearcaneforge.sapphire_trapdoor": "Sapphire Trapdoor",
+
+
 
   "tooltip.thearcaneforge.arcane_chisel.shift_down": "This Item changes certain §bBLOCKS§r !",
   "tooltip.thearcaneforge.arcane_chisel": "Press §eShift§r for more Information !",

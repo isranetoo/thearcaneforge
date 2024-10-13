@@ -1,0 +1,9 @@
+{
+  "asset_name": "bismuth_gemstone",
+  "description": {
+    "color": "#031CFC",
+    "translate": "trim_material.thearcaneforge.bismuth_gemstone"
+  },
+  "ingredient": "thearcaneforge:bismuth_gemstone",
+  "item_model_index": 0.5
+}

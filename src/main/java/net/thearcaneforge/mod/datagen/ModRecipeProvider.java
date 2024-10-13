@@ -3,6 +3,7 @@ package net.thearcaneforge.mod.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
@@ -133,6 +134,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // ARCANE BOOTS
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_BOOTS.get())
                 .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.ARCANE_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
+                .save(pRecipeOutput);
+
+        // Arcane Horse Armor
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.ARCANE_HORSE_ARMOR.get())
+                .pattern("A A")
+                .pattern("AAA")
                 .pattern("A A")
                 .define('A', ModItems.ARCANE_GEMSTONE.get())
                 .unlockedBy(getHasName(ModItems.ARCANE_GEMSTONE.get()), has(ModItems.ARCANE_GEMSTONE.get()))
@@ -278,6 +288,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         // Pink Garnet BOOTS
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_BOOTS.get())
                 .pattern("A A")
+                .pattern("A A")
+                .define('A', ModItems.PINK_GARNET.get())
+                .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
+                .save(pRecipeOutput);
+
+        // Pink Garnet Horse Armor
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PINK_GARNET_HORSE_ARMOR.get())
+                .pattern("A A")
+                .pattern("AAA")
                 .pattern("A A")
                 .define('A', ModItems.PINK_GARNET.get())
                 .unlockedBy(getHasName(ModItems.PINK_GARNET.get()), has(ModItems.PINK_GARNET.get()))
@@ -432,7 +451,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
                 .save(pRecipeOutput);
 
-
+        // Bismuth Horse Armor
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.BISMUTH_HORSE_ARMOR.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', ModItems.BISMUTH_GEMSTONE.get())
+                .unlockedBy(getHasName(ModItems.BISMUTH_GEMSTONE.get()), has(ModItems.BISMUTH_GEMSTONE.get()))
+                .save(pRecipeOutput);
 
 
         //DECORATIVES
@@ -608,6 +634,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pRecipeOutput);
 
 
+        //TRIMS
+        trimSmithing(pRecipeOutput, ModItems.KAUPEN_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(TheArcaneForge.MOD_ID,"kaupen"));
 
 
     }

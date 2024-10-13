@@ -1,4 +1,4 @@
-// 1.21	2024-10-09T00:37:26.9288905	Item Models: thearcaneforge
+// 1.21	2024-10-12T23:43:01.7980006	Item Models: thearcaneforge
 e781e9a09fda9d403313ee81d4089bbaa73fbef2 assets/thearcaneforge/models/item/arcane_ashes.json
 5748fa5c9a8418a6e31d1611a81186e3f7b660d3 assets/thearcaneforge/models/item/arcane_axe.json
 2090927ba440b006d29da1c8afa2e80825175e4f assets/thearcaneforge/models/item/arcane_boots.json
@@ -118,6 +118,7 @@ cedf05c81bf056c74f9a17aba4a04082c5887f77 assets/thearcaneforge/models/item/cauli
 caf4e0fad4fc3748b4a5368f014132b1eb89a25c assets/thearcaneforge/models/item/frostfire_ice.json
 5c9404f23457b65eb118ff03ed2be7e29c17ee39 assets/thearcaneforge/models/item/garnet_ashes.json
 88394c7414340545cb1f212af1b83b82d13d4a45 assets/thearcaneforge/models/item/garnet_chisel.json
+b722958bb425c6e91f262475171f855168d6a360 assets/thearcaneforge/models/item/kaupen_armor_trim_smithing_template.json
 0d66da62fa54900c49b0b21d6217e50bd2f62677 assets/thearcaneforge/models/item/kohlrabi.json
 311cdeaa670cde0679ed591a94204e4de509dbae assets/thearcaneforge/models/item/pine_cone.json
 328faca6bdb691c1a48e97a9e986a3ea5f892e2b assets/thearcaneforge/models/item/pink_garnet.json

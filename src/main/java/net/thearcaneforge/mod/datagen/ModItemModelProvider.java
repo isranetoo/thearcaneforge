@@ -173,6 +173,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
 
+        //TRIMS
+        basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

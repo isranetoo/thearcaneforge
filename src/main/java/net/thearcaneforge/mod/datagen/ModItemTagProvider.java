@@ -44,5 +44,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.SAPPHIRE_CHESTPLATE.get())
                 .add(ModItems.SAPPHIRE_LEGGINGS.get())
                 .add(ModItems.SAPPHIRE_BOOTS.get());
+
+        tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.ARCANE_GEMSTONE.get())
+                .add(ModItems.PINK_GARNET.get())
+                .add(ModItems.BISMUTH_GEMSTONE.get());
+
+        tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
     }
 }
