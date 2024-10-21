@@ -10,7 +10,7 @@ import net.thearcaneforge.mod.item.custom.ArcaneChiselItem;
 import net.thearcaneforge.mod.item.custom.BismuthChiselItem;
 import net.thearcaneforge.mod.item.custom.GarnetChiselItem;
 
-public class ModITools {
+public class ModTools {
     public  static  final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TheArcaneForge.MOD_ID);
 

@@ -15,12 +15,12 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TheArcaneForge.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ARCANE_TOOLS_UTILS_TAB = CREATIVE_MODE_TABS.register("arcane_tools_utils_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModITools.ARCANE_CHISEL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModTools.ARCANE_CHISEL.get()))
                     .title(Component.translatable("creativetab.thearcaneforge.arcane_tools_utils_tab"))
                     .displayItems((itemDisplayParameters,output) -> {
-                        output.accept(ModITools.ARCANE_CHISEL.get());
-                        output.accept(ModITools.GARNET_CHISEL.get());
-                        output.accept(ModITools.BISMUTH_CHISEL.get());
+                        output.accept(ModTools.ARCANE_CHISEL.get());
+                        output.accept(ModTools.GARNET_CHISEL.get());
+                        output.accept(ModTools.BISMUTH_CHISEL.get());
 
                         //ARCANE
                         output.accept(ModItems.ARCANE_PICKAXE.get());

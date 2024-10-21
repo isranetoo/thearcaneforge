@@ -13,12 +13,11 @@ import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thearcaneforge.mod.TheArcaneForge;
 import net.thearcaneforge.mod.block.ModBlocks;
-import net.thearcaneforge.mod.item.ModITools;
+import net.thearcaneforge.mod.item.ModTools;
 import net.thearcaneforge.mod.item.ModItems;
 
 import java.util.LinkedHashMap;
@@ -63,9 +62,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_SAPPHIRE.get());
 
         //CHISELS
-        basicItem(ModITools.ARCANE_CHISEL.get());
-        basicItem(ModITools.GARNET_CHISEL.get());
-        basicItem(ModITools.BISMUTH_CHISEL.get());
+        basicItem(ModTools.ARCANE_CHISEL.get());
+        basicItem(ModTools.GARNET_CHISEL.get());
+        basicItem(ModTools.BISMUTH_CHISEL.get());
 
         //FOOD
         basicItem(ModItems.KOHLRABI.get());
